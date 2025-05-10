@@ -7,6 +7,8 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from '@mui/icons-material/Instagram';
 import XIcon from '@mui/icons-material/X';
+import FileDownloadIcon from '@mui/icons-material/FileDownload';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 function SeccionN1() {
   return (
@@ -259,9 +261,8 @@ function SeccionN1() {
             }
           }}>
             <Button
-              href="\Images\Curriculum Vitae - Scampone Garcia Santino.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/Images/Curriculum Vitae - Scampone Garcia Santino.pdf"
+              download
               component="a"
               variant="contained"
               sx={{
@@ -274,7 +275,7 @@ function SeccionN1() {
                 }
               }}
             >
-              Curriculum
+              <FileDownloadIcon fontSize="medium" sx={{ marginRight: "0.3rem"}} />Curriculum
             </Button>
             <Button
               href="https://wa.me/5493534244165?text=Hola%2C%20estoy%20interesado%20en%20tu%20trabajo"
@@ -292,7 +293,7 @@ function SeccionN1() {
                 }
               }}
             >
-              Contacto
+              <WhatsAppIcon fontSize="medium" sx={{ marginRight: "0.3rem"}} />Contacto
             </Button>
           </Stack>
         </Stack>
@@ -614,13 +615,13 @@ function Contactos() {
         }}>Trabajemos juntos...</Typography>
         <Typography variant="body" sx={{
           fontSize: {
-            xs: "1rem",
-            sm: "0.5rem",
-            md: "1.5rem"
+            xs: "1.5rem",
+            sm: "1.5rem",
+            md: "1.8rem"
           },
           color: "#ffff",
           wordBreak: "break-word",
-        }}>También podes contactarme por estas redes</Typography>
+        }}>Mis otras redes</Typography>
         <Stack spacing={{ xs: 3, sm: 3, md: 8 }} direction={{ xs: "column", sm: "column", md: "row" }}>
           <Button component="a" href="https://github.com/Santino112" target="_blank" rel="noopener noreferrer" sx={{
             fontSize: {
@@ -685,7 +686,7 @@ function Contactos() {
               backgroundColor: "transparent",
               transform: "scale(1.10)"
             },
-          }}><XIcon fontSize="long" sx={{ marginRight: "0.3rem", textShadow: "4px 2px 3px #1f1f1f" }} />Twitter</Button>
+          }}><XIcon fontSize="long" sx={{ marginRight: "0.3rem"}} />Twitter</Button>
         </Stack>
       </Stack>
     </Box >
