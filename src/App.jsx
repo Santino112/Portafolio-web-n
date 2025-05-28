@@ -23,9 +23,10 @@ function SeccionN1() {
       <Stack
         direction={{
           xs: "column",
-          sm: "row",
+          sm: "column",
           md: "row",
           lg: "row",
+          xl: "row"
         }}
         sx={{
           width: {
