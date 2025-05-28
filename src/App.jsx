@@ -15,9 +15,12 @@ function SeccionN1() {
     <Box
       component="section"
       sx={{
-        width: "100%",
-        maxWidth: "100%",
-        minHeight: "100vh"
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+        minHeight: "100vh",
+        minWidth: "100vw",
       }}
     >
       <Stack
@@ -28,21 +31,26 @@ function SeccionN1() {
           lg: "row",
           xl: "row"
         }}
+        alignItems="center"
         sx={{
           width: {
             xs: "80%",
             sm: "80%",
-            md: "64%",
+            md: "80%",
+            lg: "80%",
+            xl: "50%"
           },
           margin: {
             xs: "7vh auto",
             sm: "7vh auto",
-            md: "20vh auto",
+            md: "8vh auto",
+            lg: "9vh auto",
+            xl: "15vh auto"
           },
           border: "8px",
           backdropFilter: "blur(20px)",
           backgroundColor: "rgba(255, 255, 255, 0.10)",
-          boxShadow: "0 1px 12px rgba(255,255,255,0.8)"
+          boxShadow: "0 1px 12px rgba(255,255,255,0.8)",
         }}
       >
         <Stack
@@ -50,7 +58,7 @@ function SeccionN1() {
           justifyContent="center"
           alignItems="center"
           sx={{
-            padding: "2rem",
+            padding: "1.5rem",
           }}
         >
           <Box
@@ -62,7 +70,9 @@ function SeccionN1() {
               width: {
                 xs: "60%",
                 sm: "60%",
-                md: "75%",
+                md: "70%",
+                lg: "70%",
+                xl: "70%"
               },
               boxShadow: "0 1px 12px rgba(35, 34, 34, 0.8)",
               borderRadius: "20%",
@@ -70,7 +80,7 @@ function SeccionN1() {
           />
         </Stack>
         <Stack
-          spacing={{ xs: 4, sm: 6, md: 7 }}
+          spacing={{ xs: 4, sm: 6, md: 5, lg: 5, xl: 7 }}
           direction="column"
           justifyContent="center"
           sx={{
@@ -78,6 +88,8 @@ function SeccionN1() {
               xs: "2rem",
               sm: "2rem",
               md: "1rem",
+              lg: "1rem",
+              xl: "1rem"
             }
           }}
         >
@@ -87,12 +99,16 @@ function SeccionN1() {
               fontSize: {
                 xs: "1.2rem",
                 sm: "1.1rem",
-                md: "2.9rem",
+                md: "2rem",
+                lg: "2.5rem",
+                xl: "2.5rem"
               },
               textAlign: {
                 xs: "center",
                 sm: "center",
-                md: "start"
+                md: "start",
+                lg: "start",
+                xl: "start"
               },
               color: "#ffff",
               width: "100%",
@@ -114,11 +130,15 @@ function SeccionN1() {
                   xs: "1.1rem",
                   sm: "1.1rem",
                   md: "1.7rem",
+                  lg: "1.6rem",
+                  xl: "1.6rem"
                 },
                 textAlign: {
                   xs: "center",
                   sm: "center",
-                  md: "start"
+                  md: "start",
+                  lg: "start",
+                  xl: "start"
                 },
                 color: "#ffff",
                 wordBreak: "break-word"
@@ -150,7 +170,9 @@ function SeccionN1() {
                   width: {
                     xs: "100%",
                     sm: "100%",
-                    md: "64%"
+                    md: "64%",
+                    lg: "63%",
+                    xl: "63%"
                   },
                   fill: "#E44D26",
                 }}
@@ -169,7 +191,9 @@ function SeccionN1() {
                   width: {
                     xs: "100%",
                     sm: "100%",
-                    md: "64%"
+                    md: "64%",
+                    lg: "63%",
+                    xl: "63%"
                   },
                   fill: "#1572B6"
                 }}
@@ -188,7 +212,9 @@ function SeccionN1() {
                   width: {
                     xs: "100%",
                     sm: "100%",
-                    md: "64%"
+                    md: "64%",
+                    lg: "63%",
+                    xl: "63%"
                   },
                   fill: "#F7DF1E"
                 }}
@@ -207,7 +233,9 @@ function SeccionN1() {
                   width: {
                     xs: "100%",
                     sm: "100%",
-                    md: "64%"
+                    md: "64%",
+                    lg: "63%",
+                    xl: "63%"
                   },
                   fill: "#61DAFB"
                 }}
@@ -226,7 +254,9 @@ function SeccionN1() {
                   width: {
                     xs: "100%",
                     sm: "100%",
-                    md: "64%"
+                    md: "64%",
+                    lg: "63%",
+                    xl: "63%"
                   },
                   fill: "#007FFF"
                 }}
@@ -245,7 +275,9 @@ function SeccionN1() {
                   width: {
                     xs: "100%",
                     sm: "100%",
-                    md: "64%"
+                    md: "64%",
+                    lg: "63%",
+                    xl: "63%"
                   },
                   fill: "#5FA04E"
                 }}
@@ -258,7 +290,17 @@ function SeccionN1() {
           <Stack spacing={3} direction="row" sx={{
             textAlign: {
               xs: "center",
-              sm: "center"
+              sm: "center",
+              md: "start",
+              lg: "start",
+              xl: "start"
+            },
+            paddingBottom: {
+              xs: 0,
+              sm: 0,
+              md: "1rem",
+              lg: "1rem",
+              xl: "1rem"
             }
           }}>
             <Button
@@ -267,7 +309,7 @@ function SeccionN1() {
               component="a"
               variant="contained"
               sx={{
-                fontSize: { xs: "0.80rem", md: "1rem" },
+                fontSize: { xs: "0.80rem", sm: "0.80rem", md: "1rem", lg: "1rem", xl: "1rem" },
                 backgroundColor: "#212121",
                 boxShadow: "0 4px 5px rgba(0, 0, 0, 0.8)",
                 "&:hover": {
@@ -276,7 +318,7 @@ function SeccionN1() {
                 }
               }}
             >
-              <FileDownloadIcon fontSize="medium" sx={{ marginRight: "0.3rem"}} />Curriculum
+              <FileDownloadIcon fontSize="medium" sx={{ marginRight: "0.3rem" }} />Curriculum
             </Button>
             <Button
               href="https://wa.me/5493534244165?text=Hola%2C%20estoy%20interesado%20en%20tu%20trabajo"
@@ -285,16 +327,16 @@ function SeccionN1() {
               component="a"
               variant="contained"
               sx={{
-                fontSize: { xs: "0.80rem", md: "1rem" },
+                fontSize: { xs: "0.80rem", sm: "0.80rem", md: "1rem", lg: "1rem", xl: "1rem" },
                 backgroundColor: "#212121",
                 boxShadow: "0 4px 5px rgba(0, 0, 0, 0.8)",
                 "&:hover": {
                   color: "#ffff",
                   backgroundColor: "#1E1E1E"
-                }
+                },
               }}
             >
-              <WhatsAppIcon fontSize="medium" sx={{ marginRight: "0.3rem"}} />Contacto
+              <WhatsAppIcon fontSize="medium" sx={{ marginRight: "0.3rem" }} />Contacto
             </Button>
           </Stack>
         </Stack>
@@ -319,7 +361,7 @@ function SeccionN2() {
       }}>
       <Typography variant="h1" component="div"
         sx={{
-          fontSize: { xs: "2rem", sm: "2rem", md: "3rem" },
+          fontSize: { xs: "2rem", sm: "2rem", md: "2rem", lg: "2.5rem", xl: "2.5rem" },
           marginTop: "2rem",
           color: "#ffff",
           backdropFilter: "blur(30px)",
@@ -329,18 +371,30 @@ function SeccionN2() {
         }}>Mis proyectos</Typography>
       <Grid
         container
-        spacing={{ xs: 8, sm: 8, md: 13 }}
+        spacing={{ xs: 8, sm: 8, md: 13, lg: 13, xl: 13 }}
         justifyContent="center"
         sx={{
           padding: {
             xs: "2rem",
-            md: "4rem"
+            sm: "2rem",
+            md: "3rem",
+            lg: "3rem",
+            xl: "3rem"
           },
           maxWidth: {
             xs: "100%",
-            md: "96%"
+            sm: "100%",
+            md: "100%",
+            lg: "100%",
+            xl: "96%"
           },
-          margin: "0 auto"
+          margin: {
+            xs: "1rem auto",
+            sm: "1rem auto",
+            md: "1rem auto",
+            lg: "0 auto",
+            xl: "0 auto"
+          }
         }}
       >
         <Grid item xs={12} sm={6} md={4}>
@@ -353,10 +407,10 @@ function SeccionN2() {
             />
             <CardContent sx={{ overflowY: 'auto', flex: 1, minHeight: 0 }}>
               <Typography gutterBottom variant="h5" component="div" sx={{ fontSize: { xs: "1.5rem", sm: "1.1rem", md: "1.5rem" } }}>
-                Survey Form
+                Survey form
               </Typography>
               <Typography variant="body2" sx={{ fontSize: { xs: "1.1rem", sm: "1.1rem", md: "1.2rem", }, wordBreak: "break-word" }}>
-                Un formulario en línea que se utiliza para recopilar respuestas o datos de los usuarios sobre un tema específico. Desarrollado con Bootstrap.
+                Un formulario en línea que se utiliza para recopilar respuestas o datos de los usuarios sobre un tema específico. Desarrollado con HTML5, CSS, JavaScript y Bootstrap.
               </Typography>
             </CardContent>
             <CardActions>
@@ -388,18 +442,18 @@ function SeccionN2() {
               component="img"
               alt="green iguana"
               height="300"
-              src={"/Images/fondo-oscuro-textura-tela_448617-61.avif"}
+              src={"/Images/walletRaulo.png"}
             />
             <CardContent sx={{ overflowY: 'auto', flex: 1, minHeight: 0 }}>
               <Typography gutterBottom variant="h5" component="div" sx={{ fontSize: { xs: "1.5rem", sm: "1.1rem", md: "1.5rem" } }}>
-                Próximamente <CircularProgress size={16} color="#ffff" sx={{ marginLeft: "0.4rem" }} />
+                Wallet raulo coins
               </Typography>
               <Typography variant="body2" sx={{ fontSize: { xs: "1.1rem", sm: "1.1rem", md: "1.2rem", }, wordBreak: "break-word" }}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, quod nemo. Harum quasi minus aspernatur eaque accusantium odio a laboriosam incidunt fuga, officiis numquam distinctio beatae ex maiores exercitationem ad!
+                Proyecto donde se utiliza una serie de apis para generar una billetera virtual de transacciones entre mis diferentes compañeros universitarios. Esta fue realizada con React Vite, para la estructura y manejo de las api y Material Design para todo el diseño.
               </Typography>
             </CardContent>
             <CardActions>
-              <Button size="medium" variant="Contained" component="a" href="#" disableElevation
+              <Button size="medium" variant="Contained" component="a" href="https://wallet-raulo-coins.vercel.app" target="_blank" rel="noopener noreferrer" disableElevation
                 sx={{
                   fontSize: { xs: "0.80rem", md: "1rem" },
                   backgroundColor: "#37474f",
@@ -409,7 +463,7 @@ function SeccionN2() {
                     backgroundColor: "#263238"
                   }
                 }}>Ver proyecto</Button>
-              <Button size="medium" variant="text" component="a" href="#" disableElevation
+              <Button size="medium" variant="text" component="a" href="https://github.com/Santino112/Wallet-RauloCoins" target="_blank" rel="noopener noreferrer" disableElevation
                 sx={{
                   fontSize: { xs: "0.80rem", md: "1rem" },
                   color: "#ffff",
@@ -597,19 +651,25 @@ function Contactos() {
         width: {
           xs: "80%",
           sm: "80%",
-          md: "70%",
+          md: "80%",
+          lg: "80%",
+          xl: "80%"
         },
         height: {
           xs: 600,
           sm: 600,
-          md: 500
+          md: 500,
+          lg: 400,
+          xl: 400
         },
       }}>
         <Typography variant="h2" sx={{
           fontSize: {
             xs: "2rem",
-            sm: "1rem",
-            md: "3rem"
+            sm: "2rem",
+            md: "2rem",
+            lg: "2.5rem",
+            xl: "3rem"
           },
           color: "#ffff",
           wordBreak: "break-word"
@@ -618,7 +678,9 @@ function Contactos() {
           fontSize: {
             xs: "1.5rem",
             sm: "1.5rem",
-            md: "1.8rem"
+            md: "2rem",
+            lg: "2rem",
+            xl: "2rem"
           },
           color: "#ffff",
           wordBreak: "break-word",
@@ -628,7 +690,9 @@ function Contactos() {
             fontSize: {
               xs: "1.4rem",
               sm: "1.4rem",
-              md: "2rem"
+              md: "1.4rem",
+              lg: "1.8rem",
+              xl: "2rem"
             },
             backgroundColor: "transparent",
             textShadow: "3px 3px 3px #1f1f1f",
@@ -644,7 +708,9 @@ function Contactos() {
             fontSize: {
               xs: "1.4rem",
               sm: "1.4rem",
-              md: "2rem"
+              md: "1.4rem",
+              lg: "1.8rem",
+              xl: "2rem"
             },
             backgroundColor: "transparent",
             textShadow: "3px 3px 3px #1f1f1f",
@@ -660,7 +726,9 @@ function Contactos() {
             fontSize: {
               xs: "1.4rem",
               sm: "1.4rem",
-              md: "2rem"
+              md: "1.4rem",
+              lg: "1.8rem",
+              xl: "2rem"
             },
             backgroundColor: "transparent",
             textShadow: "3px 3px 3px #1f1f1f",
@@ -676,7 +744,9 @@ function Contactos() {
             fontSize: {
               xs: "1.4rem",
               sm: "1.4rem",
-              md: "2rem"
+              md: "1.4rem",
+              lg: "1.8rem",
+              xl: "2rem"
             },
             backgroundColor: "transparent",
             textShadow: "3px 3px 3px #1f1f1f",
@@ -687,7 +757,7 @@ function Contactos() {
               backgroundColor: "transparent",
               transform: "scale(1.10)"
             },
-          }}><XIcon fontSize="long" sx={{ marginRight: "0.3rem"}} />Twitter</Button>
+          }}><XIcon fontSize="long" sx={{ marginRight: "0.3rem" }} />Twitter</Button>
         </Stack>
       </Stack>
     </Box >
