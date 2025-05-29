@@ -38,7 +38,7 @@ function SeccionN1() {
             sm: "80%",
             md: "80%",
             lg: "80%",
-            xl: "50%"
+            xl: "65%"
           },
           margin: {
             xs: "7vh auto",
@@ -168,8 +168,8 @@ function SeccionN1() {
                 xmlns="http://www.w3.org/2000/svg"
                 sx={{
                   width: {
-                    xs: "100%",
-                    sm: "100%",
+                    xs: "90%",
+                    sm: "90%",
                     md: "64%",
                     lg: "63%",
                     xl: "63%"
@@ -189,8 +189,8 @@ function SeccionN1() {
                 xmlns="http://www.w3.org/2000/svg"
                 sx={{
                   width: {
-                    xs: "100%",
-                    sm: "100%",
+                    xs: "90%",
+                    sm: "90%",
                     md: "64%",
                     lg: "63%",
                     xl: "63%"
@@ -210,8 +210,8 @@ function SeccionN1() {
                 xmlns="http://www.w3.org/2000/svg"
                 sx={{
                   width: {
-                    xs: "100%",
-                    sm: "100%",
+                    xs: "90%",
+                    sm: "90%",
                     md: "64%",
                     lg: "63%",
                     xl: "63%"
@@ -231,8 +231,8 @@ function SeccionN1() {
                 xmlns="http://www.w3.org/2000/svg"
                 sx={{
                   width: {
-                    xs: "100%",
-                    sm: "100%",
+                    xs: "90%",
+                    sm: "90%",
                     md: "64%",
                     lg: "63%",
                     xl: "63%"
@@ -252,8 +252,8 @@ function SeccionN1() {
                 xmlns="http://www.w3.org/2000/svg"
                 sx={{
                   width: {
-                    xs: "100%",
-                    sm: "100%",
+                    xs: "90%",
+                    sm: "90%",
                     md: "64%",
                     lg: "63%",
                     xl: "63%"
@@ -273,8 +273,8 @@ function SeccionN1() {
                 xmlns="http://www.w3.org/2000/svg"
                 sx={{
                   width: {
-                    xs: "100%",
-                    sm: "100%",
+                    xs: "90%",
+                    sm: "90%",
                     md: "64%",
                     lg: "63%",
                     xl: "63%"
@@ -653,14 +653,14 @@ function Contactos() {
           sm: "80%",
           md: "80%",
           lg: "80%",
-          xl: "80%"
+          xl: "65%"
         },
         height: {
           xs: 600,
           sm: 600,
           md: 500,
           lg: 400,
-          xl: 400
+          xl: 500
         },
       }}>
         <Typography variant="h2" sx={{
