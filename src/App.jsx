@@ -524,7 +524,7 @@ function SeccionN2() {
             />
             <CardContent sx={{ overflowY: 'auto', flex: 1, minHeight: 0 }}>
               <Typography gutterBottom variant="h5" component="div" sx={{ fontSize: { xs: "1.5rem", sm: "1.1rem", md: "1.5rem" } }}>
-                Próximamente <CircularProgress size={16} color="#ffff" sx={{ marginLeft: "0.4rem" }} />
+                Próximamente (Wallet Auth0)<CircularProgress size={16} color="#ffff" sx={{ marginLeft: "0.4rem" }} />
               </Typography>
               <Typography variant="body2" sx={{ fontSize: { xs: "1.1rem", sm: "1.1rem", md: "1.2rem", }, wordBreak: "break-word" }}>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores quidem dolorum facilis dolore, quasi ad consectetur, laborum repudiandae ducimus numquam repellat provident. Sequi eum iure tenetur at, earum tempora vel.
