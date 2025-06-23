@@ -311,7 +311,7 @@ function SeccionN1() {
               sx={{
                 fontSize: { xs: "0.80rem", sm: "0.80rem", md: "1rem", lg: "1rem", xl: "1rem" },
                 backgroundColor: "#212121",
-                boxShadow: "0 4px 5px rgba(0, 0, 0, 0.8)",
+                boxShadow: 7,
                 "&:hover": {
                   color: "#ffff",
                   backgroundColor: "#1E1E1E"
@@ -329,7 +329,7 @@ function SeccionN1() {
               sx={{
                 fontSize: { xs: "0.80rem", sm: "0.80rem", md: "1rem", lg: "1rem", xl: "1rem" },
                 backgroundColor: "#212121",
-                boxShadow: "0 4px 5px rgba(0, 0, 0, 0.8)",
+                boxShadow: 7,
                 "&:hover": {
                   color: "#ffff",
                   backgroundColor: "#1E1E1E"
@@ -357,7 +357,7 @@ function SeccionN2() {
         flexDirection: "column",
         backdropFilter: "blur(5px)",
         backgroundColor: "rgba(255, 255, 255, 0.10)",
-        boxShadow: "0 5px 18px rgba(22, 22, 22, 0.8)"
+        boxShadow: 6
       }}>
       <Typography variant="h1" component="div"
         sx={{
@@ -481,18 +481,19 @@ function SeccionN2() {
               component="img"
               alt="green iguana"
               height="300"
-              src={"/Images/fondo-oscuro-textura-tela_448617-61.avif"}
+              src={"/Images/walletAuth0.png"}
             />
             <CardContent sx={{ overflowY: 'auto', flex: 1, minHeight: 0 }}>
               <Typography gutterBottom variant="h5" component="div" sx={{ fontSize: { xs: "1.5rem", sm: "1.1rem", md: "1.5rem" } }}>
-                Próximamente (Business website) <CircularProgress size={16} color="#ffff" sx={{ marginLeft: "0.4rem" }} />
+                Wallet con Auth0
               </Typography>
               <Typography variant="body2" sx={{ fontSize: { xs: "1.1rem", sm: "1.1rem", md: "1.2rem", }, wordBreak: "break-word" }}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, quod nemo. Harum quasi minus aspernatur eaque accusantium odio a laboriosam incidunt fuga, officiis numquam distinctio beatae ex maiores exercitationem ad!
-              </Typography>
+                Version mejorada del anterior proyecto de "Wallet raulo coins". En este proyecto utilizamos un servicio de terceros para ingresar a la billetera virtual. Además, se agregaron nuevas funcionalidades y mejoras.
+                Desarrollado con React Vite y Material Design.
+               </Typography>
             </CardContent>
             <CardActions>
-              <Button size="medium" variant="Contained" component="a" href="#" disableElevation
+              <Button size="medium" variant="Contained" component="a" href="https://wallet-auth0.vercel.app" target="_blank" rel="noopener noreferrer" disableElevation
                 sx={{
                   fontSize: { xs: "0.80rem", md: "1rem" },
                   backgroundColor: "#37474f",
@@ -502,7 +503,7 @@ function SeccionN2() {
                     backgroundColor: "#263238"
                   }
                 }}>Ver proyecto</Button>
-              <Button size="medium" variant="text" component="a" href="#" disableElevation
+              <Button size="medium" variant="text" component="a" href="https://github.com/Santino112/Wallet-Auth0" target="_blank" rel="noopener noreferrer" disableElevation
                 sx={{
                   fontSize: { xs: "0.80rem", md: "1rem" },
                   color: "#ffff",
@@ -524,7 +525,7 @@ function SeccionN2() {
             />
             <CardContent sx={{ overflowY: 'auto', flex: 1, minHeight: 0 }}>
               <Typography gutterBottom variant="h5" component="div" sx={{ fontSize: { xs: "1.5rem", sm: "1.1rem", md: "1.5rem" } }}>
-                Próximamente (Wallet Auth0)<CircularProgress size={16} color="#ffff" sx={{ marginLeft: "0.4rem" }} />
+                Próximamente (Business website)<CircularProgress size={16} color="#ffff" sx={{ marginLeft: "0.4rem" }} />
               </Typography>
               <Typography variant="body2" sx={{ fontSize: { xs: "1.1rem", sm: "1.1rem", md: "1.2rem", }, wordBreak: "break-word" }}>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores quidem dolorum facilis dolore, quasi ad consectetur, laborum repudiandae ducimus numquam repellat provident. Sequi eum iure tenetur at, earum tempora vel.
