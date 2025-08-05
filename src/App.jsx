@@ -521,18 +521,18 @@ function SeccionN2() {
               component="img"
               alt="green iguana"
               height="300"
-              src={"/Images/fondo-oscuro-textura-tela_448617-61.avif"}
+              src={"/Images/Preguntame.png"}
             />
             <CardContent sx={{ overflowY: 'auto', flex: 1, minHeight: 0 }}>
               <Typography gutterBottom variant="h5" component="div" sx={{ fontSize: { xs: "1.5rem", sm: "1.1rem", md: "1.5rem" } }}>
-                Próximamente (Business website)<CircularProgress size={16} color="#ffff" sx={{ marginLeft: "0.4rem" }} />
+                Preguntame
               </Typography>
               <Typography variant="body2" sx={{ fontSize: { xs: "1.1rem", sm: "1.1rem", md: "1.2rem", }, wordBreak: "break-word" }}>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores quidem dolorum facilis dolore, quasi ad consectetur, laborum repudiandae ducimus numquam repellat provident. Sequi eum iure tenetur at, earum tempora vel.
+                Aplicación que responde 'Sí' o 'No' en base a una pregunta del usuario, usando una API que devuelve un gif y una respuesta textual, tipo oráculo digital moderno.
               </Typography>
             </CardContent>
             <CardActions>
-              <Button size="medium" variant="Contained" component="a" href="#" disableElevation
+              <Button size="medium" variant="Contained" component="a" href="https://preguntas-ashy.vercel.app" target="_blank" rel="noopener noreferrer" disableElevation
                 sx={{
                   fontSize: { xs: "0.80rem", md: "1rem" },
                   backgroundColor: "#37474f",
@@ -542,7 +542,7 @@ function SeccionN2() {
                     backgroundColor: "#263238"
                   }
                 }}>Ver proyecto</Button>
-              <Button size="medium" variant="text" component="a" href="#" disableElevation
+              <Button size="medium" variant="text" component="a" href="https://github.com/Santino112/Preguntas" target="_blank" rel="noopener noreferrer" disableElevation
                 sx={{
                   fontSize: { xs: "0.80rem", md: "1rem" },
                   color: "#ffff",
@@ -564,7 +564,7 @@ function SeccionN2() {
             />
             <CardContent sx={{ overflowY: 'auto', flex: 1, minHeight: 0 }}>
               <Typography gutterBottom variant="h5" component="div" sx={{ fontSize: { xs: "1.5rem", sm: "1.1rem", md: "1.5rem" } }}>
-                Próximamente <CircularProgress size={16} color="#ffff" sx={{ marginLeft: "0.4rem" }} />
+                Próximamente (Business website) <CircularProgress size={16} color="#ffff" sx={{ marginLeft: "0.4rem" }} />
               </Typography>
               <Typography variant="body2" sx={{ fontSize: { xs: "1.1rem", sm: "1.1rem", md: "1.2rem", }, wordBreak: "break-word" }}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, pariatur quae beatae est rem corrupti aperiam dicta adipisci ipsum harum rerum libero accusantium! Voluptatum ipsa recusandae nulla repudiandae sequi rerum?
@@ -674,7 +674,7 @@ function Contactos() {
           },
           color: "#ffff",
           wordBreak: "break-word"
-        }}>Trabajemos juntos...</Typography>
+        }}>Trabajemos juntos</Typography>
         <Typography variant="body" sx={{
           fontSize: {
             xs: "1.5rem",
@@ -686,13 +686,13 @@ function Contactos() {
           color: "#ffff",
           wordBreak: "break-word",
         }}>Mis otras redes</Typography>
-        <Stack spacing={{ xs: 3, sm: 3, md: 8 }} direction={{ xs: "column", sm: "column", md: "row" }}>
+        <Stack spacing={{ xs: 3, sm: 3, md: 7 }} direction={{ xs: "column", sm: "column", md: "row" }}>
           <Button component="a" href="https://github.com/Santino112" target="_blank" rel="noopener noreferrer" sx={{
             fontSize: {
               xs: "1.4rem",
               sm: "1.4rem",
               md: "1.4rem",
-              lg: "1.8rem",
+              lg: "1.7rem",
               xl: "2rem"
             },
             backgroundColor: "transparent",
@@ -710,7 +710,7 @@ function Contactos() {
               xs: "1.4rem",
               sm: "1.4rem",
               md: "1.4rem",
-              lg: "1.8rem",
+              lg: "1.7rem",
               xl: "2rem"
             },
             backgroundColor: "transparent",
@@ -728,7 +728,7 @@ function Contactos() {
               xs: "1.4rem",
               sm: "1.4rem",
               md: "1.4rem",
-              lg: "1.8rem",
+              lg: "1.7rem",
               xl: "2rem"
             },
             backgroundColor: "transparent",
@@ -746,7 +746,7 @@ function Contactos() {
               xs: "1.4rem",
               sm: "1.4rem",
               md: "1.4rem",
-              lg: "1.8rem",
+              lg: "1.7rem",
               xl: "2rem"
             },
             backgroundColor: "transparent",
