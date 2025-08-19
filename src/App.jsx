@@ -401,7 +401,7 @@ function SeccionN2() {
           <Card sx={{ maxWidth: 480, height: 510, margin: "0 auto", color: "#ffff", backgroundColor: "#212121", boxShadow: "0 5px 12px rgba(10, 10, 10, 0.8)", display: "flex", flexDirection: "column" }}>
             <CardMedia
               component="img"
-              alt="green iguana"
+              alt="Survey Form"
               height="300"
               src={"/Images/surveyForm.png"}
             />
@@ -440,7 +440,7 @@ function SeccionN2() {
           <Card sx={{ maxWidth: 480, height: 510, margin: "0 auto", color: "#ffff", backgroundColor: "#212121", boxShadow: "0 5px 12px rgba(10, 10, 10, 0.8)", display: "flex", flexDirection: "column" }}>
             <CardMedia
               component="img"
-              alt="green iguana"
+              alt="Wallet"
               height="300"
               src={"/Images/walletRaulo.png"}
             />
@@ -479,7 +479,7 @@ function SeccionN2() {
           <Card sx={{ maxWidth: 480, height: 510, margin: "0 auto", color: "#ffff", backgroundColor: "#212121", boxShadow: "0 5px 12px rgba(10, 10, 10, 0.8)", display: "flex", flexDirection: "column" }}>
             <CardMedia
               component="img"
-              alt="green iguana"
+              alt="Wallet Auth0"
               height="300"
               src={"/Images/walletAuth0.png"}
             />
@@ -490,7 +490,7 @@ function SeccionN2() {
               <Typography variant="body2" sx={{ fontSize: { xs: "1.1rem", sm: "1.1rem", md: "1.2rem", }, wordBreak: "break-word" }}>
                 Version mejorada del anterior proyecto de "Wallet raulo coins". En este proyecto utilizamos un servicio de terceros para ingresar a la billetera virtual. Además, se agregaron nuevas funcionalidades y mejoras.
                 Desarrollado con React Vite y Material Design.
-               </Typography>
+              </Typography>
             </CardContent>
             <CardActions>
               <Button size="medium" variant="Contained" component="a" href="https://wallet-auth0.vercel.app" target="_blank" rel="noopener noreferrer" disableElevation
@@ -519,7 +519,7 @@ function SeccionN2() {
           <Card sx={{ maxWidth: 480, height: 510, margin: "0 auto", color: "#ffff", backgroundColor: "#212121", boxShadow: "0 5px 12px rgba(10, 10, 10, 0.8)", display: "flex", flexDirection: "column" }}>
             <CardMedia
               component="img"
-              alt="green iguana"
+              alt="Preguntado"
               height="300"
               src={"/Images/Preguntame.png"}
             />
@@ -558,20 +558,22 @@ function SeccionN2() {
           <Card sx={{ maxWidth: 480, height: 510, margin: "0 auto", color: "#ffff", backgroundColor: "#212121", boxShadow: "0 5px 12px rgba(10, 10, 10, 0.8)", display: "flex", flexDirection: "column" }}>
             <CardMedia
               component="img"
-              alt="green iguana"
+              alt="Corporate website"
               height="300"
-              src={"/Images/fondo-oscuro-textura-tela_448617-61.avif"}
+              src={"/Images/corporateWebsite.png"}
             />
             <CardContent sx={{ overflowY: 'auto', flex: 1, minHeight: 0 }}>
               <Typography gutterBottom variant="h5" component="div" sx={{ fontSize: { xs: "1.5rem", sm: "1.1rem", md: "1.5rem" } }}>
-                Próximamente (Business website) <CircularProgress size={16} color="#ffff" sx={{ marginLeft: "0.4rem" }} />
+                Corporate Website
               </Typography>
               <Typography variant="body2" sx={{ fontSize: { xs: "1.1rem", sm: "1.1rem", md: "1.2rem", }, wordBreak: "break-word" }}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, pariatur quae beatae est rem corrupti aperiam dicta adipisci ipsum harum rerum libero accusantium! Voluptatum ipsa recusandae nulla repudiandae sequi rerum?
+                Aplicación web desarrollada para simular la gestión de una empresa de distribución de soda.
+                Permite visualizar información institucional, iniciar sesión como administrador y gestionar datos internos de los clientes, productos, pedidos y rutas de entrega.
+                Desarrollado con React Vite, Material Design, Node.js y MySQL.
               </Typography>
             </CardContent>
             <CardActions>
-              <Button size="medium" variant="Contained" component="a" href="#" disableElevation
+              <Button size="medium" variant="Contained" component="a" href="#" disableElevation disabled
                 sx={{
                   fontSize: { xs: "0.80rem", md: "1rem" },
                   backgroundColor: "#37474f",
@@ -581,7 +583,7 @@ function SeccionN2() {
                     backgroundColor: "#263238"
                   }
                 }}>Ver proyecto</Button>
-              <Button size="medium" variant="text" component="a" href="#" disableElevation
+              <Button size="medium" variant="text" component="a" href="https://github.com/Santino112/Corporate-website" target="_blank" rel="noopener noreferrer" disableElevation
                 sx={{
                   fontSize: { xs: "0.80rem", md: "1rem" },
                   color: "#ffff",
