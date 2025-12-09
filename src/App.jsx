@@ -80,7 +80,7 @@ function SeccionN1() {
           />
         </Stack>
         <Stack
-          spacing={{ xs: 4, sm: 6, md: 5, lg: 5, xl: 7 }}
+          spacing={{ xs: 3, sm: 6, md: 5, lg: 5, xl: 5 }}
           direction="column"
           justifyContent="center"
           sx={{
@@ -97,11 +97,11 @@ function SeccionN1() {
             variant="h1"
             sx={{
               fontSize: {
-                xs: "1.2rem",
+                xs: "1.6rem",
                 sm: "1.1rem",
                 md: "2rem",
                 lg: "2.5rem",
-                xl: "2.5rem"
+                xl: "2.8rem"
               },
               textAlign: {
                 xs: "center",
@@ -111,11 +111,15 @@ function SeccionN1() {
                 xl: "start"
               },
               color: "#ffff",
+              backdropFilter: "blur(40px)",
+              backgroundColor: "rgba(0, 0, 0, 0.29)",
+              boxShadow: 3,
+              padding: "0.4rem",
               width: "100%",
               wordBreak: "break-word"
             }}
           >
-            SANTINO SCAMPONE GARCIA
+            Santino Scampone Garcia
           </Typography>
           <Stack direction="row" justifyContent="center" alignItems="center"
             sx={{
@@ -144,9 +148,7 @@ function SeccionN1() {
                 wordBreak: "break-word"
               }}
             >
-              Analísta de sistemas y desarrollador web. Apasionado por la
-              programación y la obtención de nuevas habilidades. Tecnologías con
-              las que me llevo bien:
+              Backend Developer Junior con foco en Node.js, Express, JavaScript y MySQL. Experiencia en construcción de APIs REST, manejo de datos, autenticación y diseño de modelos relacionales. Me destaco por mi compromiso, rápida adaptación y buena comunicación técnica.
             </Typography>
           </Stack>
           <Grid
@@ -174,11 +176,11 @@ function SeccionN1() {
                     lg: "63%",
                     xl: "63%"
                   },
-                  fill: "#E44D26",
+                  fill: "#5FA04E"
                 }}
               >
-                <title>HTML5</title>
-                <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z" />
+                <title>NodeJs</title>
+                <path d="M11.998,24c-0.321,0-0.641-0.084-0.922-0.247l-2.936-1.737c-0.438-0.245-0.224-0.332-0.08-0.383 c0.585-0.203,0.703-0.25,1.328-0.604c0.065-0.037,0.151-0.023,0.218,0.017l2.256,1.339c0.082,0.045,0.197,0.045,0.272,0l8.795-5.076 c0.082-0.047,0.134-0.141,0.134-0.238V6.921c0-0.099-0.053-0.192-0.137-0.242l-8.791-5.072c-0.081-0.047-0.189-0.047-0.271,0 L3.075,6.68C2.99,6.729,2.936,6.825,2.936,6.921v10.15c0,0.097,0.054,0.189,0.139,0.235l2.409,1.392 c1.307,0.654,2.108-0.116,2.108-0.89V7.787c0-0.142,0.114-0.253,0.256-0.253h1.115c0.139,0,0.255,0.112,0.255,0.253v10.021 c0,1.745-0.95,2.745-2.604,2.745c-0.508,0-0.909,0-2.026-0.551L2.28,18.675c-0.57-0.329-0.922-0.945-0.922-1.604V6.921 c0-0.659,0.353-1.275,0.922-1.603l8.795-5.082c0.557-0.315,1.296-0.315,1.848,0l8.794,5.082c0.57,0.329,0.924,0.944,0.924,1.603 v10.15c0,0.659-0.354,1.273-0.924,1.604l-8.794,5.078C12.643,23.916,12.324,24,11.998,24z M19.099,13.993 c0-1.9-1.284-2.406-3.987-2.763c-2.731-0.361-3.009-0.548-3.009-1.187c0-0.528,0.235-1.233,2.258-1.233 c1.807,0,2.473,0.389,2.747,1.607c0.024,0.115,0.129,0.199,0.247,0.199h1.141c0.071,0,0.138-0.031,0.186-0.081 c0.048-0.054,0.074-0.123,0.067-0.196c-0.177-2.098-1.571-3.076-4.388-3.076c-2.508,0-4.004,1.058-4.004,2.833 c0,1.925,1.488,2.457,3.895,2.695c2.88,0.282,3.103,0.703,3.103,1.269c0,0.983-0.789,1.402-2.642,1.402 c-2.327,0-2.839-0.584-3.011-1.742c-0.02-0.124-0.126-0.215-0.253-0.215h-1.137c-0.141,0-0.254,0.112-0.254,0.253 c0,1.482,0.806,3.248,4.655,3.248C17.501,17.007,19.099,15.91,19.099,13.993z" />
               </Box>
             </Grid>
             <Grid size={1}>
@@ -195,11 +197,11 @@ function SeccionN1() {
                     lg: "63%",
                     xl: "63%"
                   },
-                  fill: "#1572B6"
+                  fill: "#000000"
                 }}
               >
-                <title>CSS</title>
-                <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z" />
+                <title>NodeJs</title>
+                <path d="M24 18.588a1.529 1.529 0 01-1.895-.72l-3.45-4.771-.5-.667-4.003 5.444a1.466 1.466 0 01-1.802.708l5.158-6.92-4.798-6.251a1.595 1.595 0 011.9.666l3.576 4.83 3.596-4.81a1.435 1.435 0 011.788-.668L21.708 7.9l-2.522 3.283a.666.666 0 000 .994l4.804 6.412zM.002 11.576l.42-2.075c1.154-4.103 5.858-5.81 9.094-3.27 1.895 1.489 2.368 3.597 2.275 5.973H1.116C.943 16.447 4.005 19.009 7.92 17.7a4.078 4.078 0 002.582-2.876c.207-.666.548-.78 1.174-.588a5.417 5.417 0 01-2.589 3.957 6.272 6.272 0 01-7.306-.933 6.575 6.575 0 01-1.64-3.858c0-.235-.08-.455-.134-.666A88.33 88.33 0 010 11.577zm1.127-.286h9.654c-.06-3.076-2.001-5.258-4.59-5.278-2.882-.04-4.944 2.094-5.071 5.264z" />
               </Box>
             </Grid>
             <Grid size={1}>
@@ -263,27 +265,6 @@ function SeccionN1() {
               >
                 <title>Material</title>
                 <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>MUI</title><path d="M20.229 15.793a.666.666 0 0 0 .244-.243.666.666 0 0 0 .09-.333l.012-3.858a.666.666 0 0 1 .09-.333.666.666 0 0 1 .245-.243L23 9.58a.667.667 0 0 1 .333-.088.667.667 0 0 1 .333.09.667.667 0 0 1 .244.243.666.666 0 0 1 .089.333v7.014a.667.667 0 0 1-.335.578l-7.893 4.534a.666.666 0 0 1-.662 0l-6.194-3.542a.667.667 0 0 1-.246-.244.667.667 0 0 1-.09-.335v-3.537c0-.004.004-.006.008-.004s.008 0 .008-.005v-.004c0-.003.002-.005.004-.007l5.102-2.93c.004-.003.002-.01-.003-.01a.005.005 0 0 1-.004-.002.005.005 0 0 1-.001-.004l.01-3.467a.667.667 0 0 0-.333-.58.667.667 0 0 0-.667 0L8.912 9.799a.667.667 0 0 1-.665 0l-3.804-2.19a.667.667 0 0 0-.999.577v6.267a.667.667 0 0 1-.332.577.666.666 0 0 1-.332.09.667.667 0 0 1-.333-.088L.336 13.825a.667.667 0 0 1-.246-.244.667.667 0 0 1-.09-.336L.019 2.292a.667.667 0 0 1 .998-.577l7.23 4.153a.667.667 0 0 0 .665 0l7.228-4.153a.666.666 0 0 1 .333-.088.666.666 0 0 1 .333.09.667.667 0 0 1 .244.244.667.667 0 0 1 .088.333V13.25c0 .117-.03.232-.089.334a.667.667 0 0 1-.245.244l-3.785 2.18a.667.667 0 0 0-.245.245.666.666 0 0 0-.089.334.667.667 0 0 0 .09.334.666.666 0 0 0 .247.244l2.088 1.189a.67.67 0 0 0 .33.087.667.667 0 0 0 .332-.089l4.457-2.56Zm.438-9.828a.666.666 0 0 0 .09.335.666.666 0 0 0 .248.244.667.667 0 0 0 .67-.008l2.001-1.2a.666.666 0 0 0 .237-.243.667.667 0 0 0 .087-.329V2.32a.667.667 0 0 0-.091-.335.667.667 0 0 0-.584-.33.667.667 0 0 0-.334.094l-2 1.2a.666.666 0 0 0-.238.243.668.668 0 0 0-.086.329v2.445Z" /></svg>
-              </Box>
-            </Grid>
-            <Grid size={1}>
-              <Box
-                component="svg"
-                role="img"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-                sx={{
-                  width: {
-                    xs: "90%",
-                    sm: "90%",
-                    md: "64%",
-                    lg: "63%",
-                    xl: "63%"
-                  },
-                  fill: "#5FA04E"
-                }}
-              >
-                <title>NodeJs</title>
-                <path d="M11.998,24c-0.321,0-0.641-0.084-0.922-0.247l-2.936-1.737c-0.438-0.245-0.224-0.332-0.08-0.383 c0.585-0.203,0.703-0.25,1.328-0.604c0.065-0.037,0.151-0.023,0.218,0.017l2.256,1.339c0.082,0.045,0.197,0.045,0.272,0l8.795-5.076 c0.082-0.047,0.134-0.141,0.134-0.238V6.921c0-0.099-0.053-0.192-0.137-0.242l-8.791-5.072c-0.081-0.047-0.189-0.047-0.271,0 L3.075,6.68C2.99,6.729,2.936,6.825,2.936,6.921v10.15c0,0.097,0.054,0.189,0.139,0.235l2.409,1.392 c1.307,0.654,2.108-0.116,2.108-0.89V7.787c0-0.142,0.114-0.253,0.256-0.253h1.115c0.139,0,0.255,0.112,0.255,0.253v10.021 c0,1.745-0.95,2.745-2.604,2.745c-0.508,0-0.909,0-2.026-0.551L2.28,18.675c-0.57-0.329-0.922-0.945-0.922-1.604V6.921 c0-0.659,0.353-1.275,0.922-1.603l8.795-5.082c0.557-0.315,1.296-0.315,1.848,0l8.794,5.082c0.57,0.329,0.924,0.944,0.924,1.603 v10.15c0,0.659-0.354,1.273-0.924,1.604l-8.794,5.078C12.643,23.916,12.324,24,11.998,24z M19.099,13.993 c0-1.9-1.284-2.406-3.987-2.763c-2.731-0.361-3.009-0.548-3.009-1.187c0-0.528,0.235-1.233,2.258-1.233 c1.807,0,2.473,0.389,2.747,1.607c0.024,0.115,0.129,0.199,0.247,0.199h1.141c0.071,0,0.138-0.031,0.186-0.081 c0.048-0.054,0.074-0.123,0.067-0.196c-0.177-2.098-1.571-3.076-4.388-3.076c-2.508,0-4.004,1.058-4.004,2.833 c0,1.925,1.488,2.457,3.895,2.695c2.88,0.282,3.103,0.703,3.103,1.269c0,0.983-0.789,1.402-2.642,1.402 c-2.327,0-2.839-0.584-3.011-1.742c-0.02-0.124-0.126-0.215-0.253-0.215h-1.137c-0.141,0-0.254,0.112-0.254,0.253 c0,1.482,0.806,3.248,4.655,3.248C17.501,17.007,19.099,15.91,19.099,13.993z" />
               </Box>
             </Grid>
           </Grid>
@@ -401,20 +382,21 @@ function SeccionN2() {
           <Card sx={{ maxWidth: 480, height: 510, margin: "0 auto", color: "#ffff", backgroundColor: "#212121", boxShadow: "0 5px 12px rgba(10, 10, 10, 0.8)", display: "flex", flexDirection: "column" }}>
             <CardMedia
               component="img"
-              alt="Survey Form"
+              alt="green iguana"
               height="300"
-              src={"/Images/surveyForm.png"}
+              src={"/Images/Domus.png"}
             />
             <CardContent sx={{ overflowY: 'auto', flex: 1, minHeight: 0 }}>
               <Typography gutterBottom variant="h5" component="div" sx={{ fontSize: { xs: "1.5rem", sm: "1.1rem", md: "1.5rem" } }}>
-                Survey form
+                Domüs HumanixTech
               </Typography>
               <Typography variant="body2" sx={{ fontSize: { xs: "1.1rem", sm: "1.1rem", md: "1.2rem", }, wordBreak: "break-word" }}>
-                Un formulario en línea que se utiliza para recopilar respuestas o datos de los usuarios sobre un tema específico. Desarrollado con HTML5, CSS, JavaScript y Bootstrap.
+                Aplicación web desarrollada en equipo para simular un entorno de trabajo real. Incluye landing page, login, panel de administración y procesamiento de datos mediante IA.<br />
+                Stack tecnológico: Node.js, Express, Supabase, OpenAI API.
               </Typography>
             </CardContent>
             <CardActions>
-              <Button size="medium" variant="Contained" component="a" href="https://survey-form-wheat-alpha.vercel.app" target="_blank" rel="noopener noreferrer" disableElevation
+              <Button size="medium" variant="Contained" component="a" href="https://landing-domus.vercel.app/" target="_blank" rel="noopener noreferrer" disableElevation
                 sx={{
                   fontSize: { xs: "0.80rem", md: "1rem" },
                   backgroundColor: "#37474f",
@@ -424,125 +406,7 @@ function SeccionN2() {
                     backgroundColor: "#263238"
                   }
                 }}>Ver proyecto</Button>
-              <Button size="medium" variant="text" component="a" href="https://github.com/Santino112/Survey-form" target="_blank" rel="noopener noreferrer" disableElevation
-                sx={{
-                  fontSize: { xs: "0.80rem", md: "1rem" },
-                  color: "#ffff",
-                  "&:hover": {
-                    color: "#ffff",
-                  }
-                }}><GitHubIcon fontSize="small" sx={{ marginRight: "0.5rem" }} /> Ver codigo</Button>
-            </CardActions>
-          </Card>
-        </Grid>
-
-        <Grid item xs={12} sm={6} md={4}>
-          <Card sx={{ maxWidth: 480, height: 510, margin: "0 auto", color: "#ffff", backgroundColor: "#212121", boxShadow: "0 5px 12px rgba(10, 10, 10, 0.8)", display: "flex", flexDirection: "column" }}>
-            <CardMedia
-              component="img"
-              alt="Wallet"
-              height="300"
-              src={"/Images/walletRaulo.png"}
-            />
-            <CardContent sx={{ overflowY: 'auto', flex: 1, minHeight: 0 }}>
-              <Typography gutterBottom variant="h5" component="div" sx={{ fontSize: { xs: "1.5rem", sm: "1.1rem", md: "1.5rem" } }}>
-                Wallet raulo coins
-              </Typography>
-              <Typography variant="body2" sx={{ fontSize: { xs: "1.1rem", sm: "1.1rem", md: "1.2rem", }, wordBreak: "break-word" }}>
-                Proyecto donde se utiliza una serie de apis para generar una billetera virtual de transacciones entre mis diferentes compañeros universitarios. Esta fue realizada con React Vite, para la estructura y manejo de las api y Material Design para todo el diseño.
-              </Typography>
-            </CardContent>
-            <CardActions>
-              <Button size="medium" variant="Contained" component="a" href="https://wallet-raulo-coins.vercel.app" target="_blank" rel="noopener noreferrer" disableElevation
-                sx={{
-                  fontSize: { xs: "0.80rem", md: "1rem" },
-                  backgroundColor: "#37474f",
-                  color: "#ffff",
-                  "&:hover": {
-                    color: "#ffff",
-                    backgroundColor: "#263238"
-                  }
-                }}>Ver proyecto</Button>
-              <Button size="medium" variant="text" component="a" href="https://github.com/Santino112/Wallet-RauloCoins" target="_blank" rel="noopener noreferrer" disableElevation
-                sx={{
-                  fontSize: { xs: "0.80rem", md: "1rem" },
-                  color: "#ffff",
-                  "&:hover": {
-                    color: "#ffff",
-                  }
-                }}><GitHubIcon fontSize="small" sx={{ marginRight: "0.5rem" }} /> Ver codigo</Button>
-            </CardActions>
-          </Card>
-        </Grid>
-
-        <Grid item xs={12} sm={6} md={4}>
-          <Card sx={{ maxWidth: 480, height: 510, margin: "0 auto", color: "#ffff", backgroundColor: "#212121", boxShadow: "0 5px 12px rgba(10, 10, 10, 0.8)", display: "flex", flexDirection: "column" }}>
-            <CardMedia
-              component="img"
-              alt="Wallet Auth0"
-              height="300"
-              src={"/Images/walletAuth0.png"}
-            />
-            <CardContent sx={{ overflowY: 'auto', flex: 1, minHeight: 0 }}>
-              <Typography gutterBottom variant="h5" component="div" sx={{ fontSize: { xs: "1.5rem", sm: "1.1rem", md: "1.5rem" } }}>
-                Wallet con Auth0
-              </Typography>
-              <Typography variant="body2" sx={{ fontSize: { xs: "1.1rem", sm: "1.1rem", md: "1.2rem", }, wordBreak: "break-word" }}>
-                Version mejorada del anterior proyecto de "Wallet raulo coins". En este proyecto utilizamos un servicio de terceros para ingresar a la billetera virtual. Además, se agregaron nuevas funcionalidades y mejoras.
-                Desarrollado con React Vite y Material Design.
-              </Typography>
-            </CardContent>
-            <CardActions>
-              <Button size="medium" variant="Contained" component="a" href="https://wallet-auth0.vercel.app" target="_blank" rel="noopener noreferrer" disableElevation
-                sx={{
-                  fontSize: { xs: "0.80rem", md: "1rem" },
-                  backgroundColor: "#37474f",
-                  color: "#ffff",
-                  "&:hover": {
-                    color: "#ffff",
-                    backgroundColor: "#263238"
-                  }
-                }}>Ver proyecto</Button>
-              <Button size="medium" variant="text" component="a" href="https://github.com/Santino112/Wallet-Auth0" target="_blank" rel="noopener noreferrer" disableElevation
-                sx={{
-                  fontSize: { xs: "0.80rem", md: "1rem" },
-                  color: "#ffff",
-                  "&:hover": {
-                    color: "#ffff",
-                  }
-                }}><GitHubIcon fontSize="small" sx={{ marginRight: "0.5rem" }} /> Ver codigo</Button>
-            </CardActions>
-          </Card>
-        </Grid>
-
-        <Grid item xs={12} sm={6} md={4}>
-          <Card sx={{ maxWidth: 480, height: 510, margin: "0 auto", color: "#ffff", backgroundColor: "#212121", boxShadow: "0 5px 12px rgba(10, 10, 10, 0.8)", display: "flex", flexDirection: "column" }}>
-            <CardMedia
-              component="img"
-              alt="Preguntado"
-              height="300"
-              src={"/Images/Preguntame.png"}
-            />
-            <CardContent sx={{ overflowY: 'auto', flex: 1, minHeight: 0 }}>
-              <Typography gutterBottom variant="h5" component="div" sx={{ fontSize: { xs: "1.5rem", sm: "1.1rem", md: "1.5rem" } }}>
-                Preguntame
-              </Typography>
-              <Typography variant="body2" sx={{ fontSize: { xs: "1.1rem", sm: "1.1rem", md: "1.2rem", }, wordBreak: "break-word" }}>
-                Aplicación que responde 'Sí' o 'No' en base a una pregunta del usuario, usando una API que devuelve un gif y una respuesta textual, tipo oráculo digital moderno.
-              </Typography>
-            </CardContent>
-            <CardActions>
-              <Button size="medium" variant="Contained" component="a" href="https://preguntas-ashy.vercel.app" target="_blank" rel="noopener noreferrer" disableElevation
-                sx={{
-                  fontSize: { xs: "0.80rem", md: "1rem" },
-                  backgroundColor: "#37474f",
-                  color: "#ffff",
-                  "&:hover": {
-                    color: "#ffff",
-                    backgroundColor: "#263238"
-                  }
-                }}>Ver proyecto</Button>
-              <Button size="medium" variant="text" component="a" href="https://github.com/Santino112/Preguntas" target="_blank" rel="noopener noreferrer" disableElevation
+              <Button size="medium" variant="text" component="a" href="https://github.com/TobiasRequena/robot-backend" target="_blank" rel="noopener noreferrer" disableElevation
                 sx={{
                   fontSize: { xs: "0.80rem", md: "1rem" },
                   color: "#ffff",
@@ -568,8 +432,8 @@ function SeccionN2() {
               </Typography>
               <Typography variant="body2" sx={{ fontSize: { xs: "1.1rem", sm: "1.1rem", md: "1.2rem", }, wordBreak: "break-word" }}>
                 Aplicación web desarrollada para simular la gestión de una empresa de distribución de soda.
-                Permite visualizar información institucional, iniciar sesión como administrador y gestionar datos internos de los clientes, productos, pedidos y rutas de entrega.
-                Desarrollado con React Vite, Material Design, Node.js y MySQL.
+                Permite visualizar información institucional, iniciar sesión como administrador y gestionar datos internos de los clientes, productos, pedidos y rutas de entrega.<br />
+                Stack tecnológico: Node.js, Express, MySQL, React Vite y Material Design.
               </Typography>
             </CardContent>
             <CardActions>
@@ -599,20 +463,22 @@ function SeccionN2() {
           <Card sx={{ maxWidth: 480, height: 510, margin: "0 auto", color: "#ffff", backgroundColor: "#212121", boxShadow: "0 5px 12px rgba(10, 10, 10, 0.8)", display: "flex", flexDirection: "column" }}>
             <CardMedia
               component="img"
-              alt="green iguana"
+              alt="Wallet Auth0"
               height="300"
-              src={"/Images/fondo-oscuro-textura-tela_448617-61.avif"}
+              src={"/Images/walletAuth0.png"}
             />
             <CardContent sx={{ overflowY: 'auto', flex: 1, minHeight: 0 }}>
               <Typography gutterBottom variant="h5" component="div" sx={{ fontSize: { xs: "1.5rem", sm: "1.1rem", md: "1.5rem" } }}>
-                Próximamente <CircularProgress size={16} color="#ffff" sx={{ marginLeft: "0.4rem" }} />
+                Wallet con Auth0
               </Typography>
               <Typography variant="body2" sx={{ fontSize: { xs: "1.1rem", sm: "1.1rem", md: "1.2rem", }, wordBreak: "break-word" }}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ducimus eum, molestias pariatur illo nisi doloribus optio vitae voluptatem magni quas consectetur nobis perferendis, voluptates temporibus, amet aut! Eius, quibusdam!
+                Version mejorada del anterior proyecto de "Wallet raulo coins". En este proyecto utilizamos un servicio de terceros para ingresar a la billetera virtual. Además, se agregaron nuevas funcionalidades y mejoras.<br />
+                Desarrollado con React Vite y Material Design.
+                Stack tecnológico: Auth0, React Vite, Material Design.
               </Typography>
             </CardContent>
             <CardActions>
-              <Button size="medium" variant="Contained" component="a" href="#" disableElevation
+              <Button size="medium" variant="Contained" component="a" href="https://wallet-auth0.vercel.app" target="_blank" rel="noopener noreferrer" disableElevation
                 sx={{
                   fontSize: { xs: "0.80rem", md: "1rem" },
                   backgroundColor: "#37474f",
@@ -622,7 +488,127 @@ function SeccionN2() {
                     backgroundColor: "#263238"
                   }
                 }}>Ver proyecto</Button>
-              <Button size="medium" variant="text" component="a" href="#" disableElevation
+              <Button size="medium" variant="text" component="a" href="https://github.com/Santino112/Wallet-Auth0" target="_blank" rel="noopener noreferrer" disableElevation
+                sx={{
+                  fontSize: { xs: "0.80rem", md: "1rem" },
+                  color: "#ffff",
+                  "&:hover": {
+                    color: "#ffff",
+                  }
+                }}><GitHubIcon fontSize="small" sx={{ marginRight: "0.5rem" }} /> Ver codigo</Button>
+            </CardActions>
+          </Card>
+        </Grid>
+
+        <Grid item xs={12} sm={6} md={4}>
+          <Card sx={{ maxWidth: 480, height: 510, margin: "0 auto", color: "#ffff", backgroundColor: "#212121", boxShadow: "0 5px 12px rgba(10, 10, 10, 0.8)", display: "flex", flexDirection: "column" }}>
+            <CardMedia
+              component="img"
+              alt="Wallet"
+              height="300"
+              src={"/Images/walletRaulo.png"}
+            />
+            <CardContent sx={{ overflowY: 'auto', flex: 1, minHeight: 0 }}>
+              <Typography gutterBottom variant="h5" component="div" sx={{ fontSize: { xs: "1.5rem", sm: "1.1rem", md: "1.5rem" } }}>
+                Wallet raulo coins
+              </Typography>
+              <Typography variant="body2" sx={{ fontSize: { xs: "1.1rem", sm: "1.1rem", md: "1.2rem", }, wordBreak: "break-word" }}>
+                Proyecto donde se utiliza una serie de apis para generar una billetera virtual de transacciones entre mis diferentes compañeros universitarios. Esta fue realizada con React Vite, para la estructura y manejo de las api y Material Design para todo el diseño.<br />
+                Stack tecnológico: React Vite, Material Design
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Button size="medium" variant="Contained" component="a" href="https://wallet-raulo-coins.vercel.app" target="_blank" rel="noopener noreferrer" disableElevation
+                sx={{
+                  fontSize: { xs: "0.80rem", md: "1rem" },
+                  backgroundColor: "#37474f",
+                  color: "#ffff",
+                  "&:hover": {
+                    color: "#ffff",
+                    backgroundColor: "#263238"
+                  }
+                }}>Ver proyecto</Button>
+              <Button size="medium" variant="text" component="a" href="https://github.com/Santino112/Wallet-RauloCoins" target="_blank" rel="noopener noreferrer" disableElevation
+                sx={{
+                  fontSize: { xs: "0.80rem", md: "1rem" },
+                  color: "#ffff",
+                  "&:hover": {
+                    color: "#ffff",
+                  }
+                }}><GitHubIcon fontSize="small" sx={{ marginRight: "0.5rem" }} /> Ver codigo</Button>
+            </CardActions>
+          </Card>
+        </Grid>
+
+        <Grid item xs={12} sm={6} md={4}>
+          <Card sx={{ maxWidth: 480, height: 510, margin: "0 auto", color: "#ffff", backgroundColor: "#212121", boxShadow: "0 5px 12px rgba(10, 10, 10, 0.8)", display: "flex", flexDirection: "column" }}>
+            <CardMedia
+              component="img"
+              alt="Preguntado"
+              height="300"
+              src={"/Images/Preguntame.png"}
+            />
+            <CardContent sx={{ overflowY: 'auto', flex: 1, minHeight: 0 }}>
+              <Typography gutterBottom variant="h5" component="div" sx={{ fontSize: { xs: "1.5rem", sm: "1.1rem", md: "1.5rem" } }}>
+                Preguntame
+              </Typography>
+              <Typography variant="body2" sx={{ fontSize: { xs: "1.1rem", sm: "1.1rem", md: "1.2rem", }, wordBreak: "break-word" }}>
+                Aplicación que responde 'Sí' o 'No' en base a una pregunta del usuario, usando una API que devuelve un gif y una respuesta textual, tipo oráculo digital moderno.<br />
+                Stack tecnológico: React Vite, Material Design.
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Button size="medium" variant="Contained" component="a" href="https://preguntas-ashy.vercel.app" target="_blank" rel="noopener noreferrer" disableElevation
+                sx={{
+                  fontSize: { xs: "0.80rem", md: "1rem" },
+                  backgroundColor: "#37474f",
+                  color: "#ffff",
+                  "&:hover": {
+                    color: "#ffff",
+                    backgroundColor: "#263238"
+                  }
+                }}>Ver proyecto</Button>
+              <Button size="medium" variant="text" component="a" href="https://github.com/Santino112/Preguntas" target="_blank" rel="noopener noreferrer" disableElevation
+                sx={{
+                  fontSize: { xs: "0.80rem", md: "1rem" },
+                  color: "#ffff",
+                  "&:hover": {
+                    color: "#ffff",
+                  }
+                }}><GitHubIcon fontSize="small" sx={{ marginRight: "0.5rem" }} /> Ver codigo</Button>
+            </CardActions>
+          </Card>
+        </Grid>
+
+        <Grid item xs={12} sm={6} md={4}>
+          <Card sx={{ maxWidth: 480, height: 510, margin: "0 auto", color: "#ffff", backgroundColor: "#212121", boxShadow: "0 5px 12px rgba(10, 10, 10, 0.8)", display: "flex", flexDirection: "column" }}>
+            <CardMedia
+              component="img"
+              alt="Survey Form"
+              height="300"
+              src={"/Images/surveyForm.png"}
+            />
+            <CardContent sx={{ overflowY: 'auto', flex: 1, minHeight: 0 }}>
+              <Typography gutterBottom variant="h5" component="div" sx={{ fontSize: { xs: "1.5rem", sm: "1.1rem", md: "1.5rem" } }}>
+                Survey form
+              </Typography>
+              <Typography variant="body2" sx={{ fontSize: { xs: "1.1rem", sm: "1.1rem", md: "1.2rem", }, wordBreak: "break-word" }}>
+                Un formulario en línea que se utiliza para recopilar respuestas o datos de los usuarios sobre un tema específico.<br />
+                Stack tecnológico: HTML5, CSS, JavaScript, Bootstrap.
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Button size="medium" variant="Contained" component="a" href="https://survey-form-wheat-alpha.vercel.app" target="_blank" rel="noopener noreferrer" disableElevation
+                sx={{
+                  fontSize: { xs: "0.80rem", md: "1rem" },
+                  backgroundColor: "#37474f",
+                  color: "#ffff",
+                  "&:hover": {
+                    color: "#ffff",
+                    backgroundColor: "#263238"
+                  }
+                }}>Ver proyecto</Button>
+              <Button size="medium" variant="text" component="a" href="https://github.com/Santino112/Survey-form" target="_blank" rel="noopener noreferrer" disableElevation
                 sx={{
                   fontSize: { xs: "0.80rem", md: "1rem" },
                   color: "#ffff",
