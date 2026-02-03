@@ -8,16 +8,22 @@ export default function Proyectos() {
   return (
     <Box component="section"
       sx={{
-        minHeight: "100vh",
+        minHeight: "100dvh",
         width: "100%",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
         flexDirection: "column",
-        backdropFilter: "blur(3px)",
-        backgroundColor: "rgba(255, 255, 255, 0.10)",
+        backgroundColor: "rgb(29, 29, 29)",
         boxShadow: 6,
         borderRadius: 7,
+        mb: {
+          xs: 0,
+          sm: 3,
+          md: 0,
+          lg: 0,
+          xl: 0
+        }
       }}>
       <Typography variant="h1" component="div"
         sx={{
@@ -27,7 +33,8 @@ export default function Proyectos() {
           backdropFilter: "blur(5px)",
           backgroundColor: "rgba(0, 0, 0, 0.1)",
           boxShadow: "0 1px 12px rgba(255,255,255,0.8)",
-          padding: "1rem"
+          padding: "1rem",
+          borderRadius: 3
         }}>Proyectos</Typography>
       <Grid
         container
@@ -71,14 +78,23 @@ export default function Proyectos() {
             <CardMedia
               component="img"
               alt="green iguana"
-              height="300"
+              sx={{
+                height: {
+                  xs: 280,
+                  sm: 280,
+                  md: 350,
+                  lg: 450,
+                  xl: 450
+                },
+                objectFit: "cover"
+              }}
               src={"/Images/Domus.png"}
             />
             <CardContent sx={{ overflowY: 'auto', flex: 1, minHeight: 0 }}>
-              <Typography gutterBottom variant="h5" component="div" sx={{ fontSize: { xs: "1.5rem", sm: "1.1rem", md: "1.5rem" } }}>
+              <Typography gutterBottom variant="h5" component="div" sx={{ fontSize: { xs: "1.5rem", sm: "1.5rem", md: "1.7rem" } }}>
                 Domüs HumanixTech
               </Typography>
-              <Typography variant="body2" sx={{ fontSize: { xs: "1.1rem", sm: "1.1rem", md: "1.2rem", }, wordBreak: "break-word" }}>
+              <Typography variant="body2" sx={{ fontSize: { xs: "1.1rem", sm: "1.2rem", md: "1.3rem"}, wordBreak: "break-word" }}>
                 Aplicación web desarrollada en equipo para simular un entorno de trabajo real. Incluye landing page, login, panel de administración y procesamiento de datos mediante IA.<br />
                 Stack tecnológico: Node.js, Express, React, Supabase, OpenAI API.
               </Typography>
@@ -86,7 +102,7 @@ export default function Proyectos() {
             <CardActions>
               <Button size="medium" variant="Contained" component="a" href="https://landing-domus.vercel.app/" target="_blank" rel="noopener noreferrer" disableElevation
                 sx={{
-                  fontSize: { xs: "0.80rem", md: "1rem" },
+                  fontSize: { xs: "0.80rem", sm: "1rem", md: "1rem" },
                   ml: 1,
                   mb: 1,
                   backgroundColor: "#37474f",
@@ -98,7 +114,7 @@ export default function Proyectos() {
                 }}>Ver proyecto</Button>
               <Button size="medium" variant="text" component="a" href="https://github.com/TobiasRequena/robot-backend" target="_blank" rel="noopener noreferrer" disableElevation
                 sx={{
-                  fontSize: { xs: "0.80rem", md: "1rem" },
+                  fontSize: { xs: "0.80rem", sm: "1rem", md: "1rem" },
                   mb: 1,
                   color: "#ffff",
                   "&:hover": {
@@ -121,14 +137,23 @@ export default function Proyectos() {
             <CardMedia
               component="img"
               alt="Corporate website"
-              height="300"
+              sx={{
+                height: {
+                  xs: 280,
+                  sm: 280,
+                  md: 350,
+                  lg: 450,
+                  xl: 450
+                },
+                objectFit: "cover"
+              }}
               src={"/Images/corporateWebsite.png"}
             />
             <CardContent sx={{ overflowY: 'auto', flex: 1, minHeight: 0 }}>
-              <Typography gutterBottom variant="h5" component="div" sx={{ fontSize: { xs: "1.5rem", sm: "1.1rem", md: "1.5rem" } }}>
+              <Typography gutterBottom variant="h5" component="div" sx={{ fontSize: { xs: "1.5rem", sm: "1.5rem", md: "1.7rem" } }}>
                 Corporate Website
               </Typography>
-              <Typography variant="body2" sx={{ fontSize: { xs: "1.1rem", sm: "1.1rem", md: "1.2rem", }, wordBreak: "break-word" }}>
+              <Typography variant="body2" sx={{ fontSize: { xs: "1.1rem", sm: "1.2rem", md: "1.3rem", }, wordBreak: "break-word" }}>
                 Aplicación web desarrollada para simular la gestión de una empresa de distribución de soda.
                 Permite visualizar información institucional, iniciar sesión como administrador y gestionar datos internos de los clientes, productos, pedidos y rutas de entrega.<br />
                 Stack tecnológico: Node.js, Express, MySQL, React Vite y Material Design.
@@ -137,7 +162,7 @@ export default function Proyectos() {
             <CardActions>
               <Button size="medium" variant="Contained" component="a" href="#" disableElevation disabled
                 sx={{
-                  fontSize: { xs: "0.80rem", md: "1rem" },
+                  fontSize: { xs: "0.80rem", sm: "1rem", md: "1rem" },
                   ml: 1,
                   mb: 1,
                   backgroundColor: "#37474f",
@@ -149,7 +174,7 @@ export default function Proyectos() {
                 }}>Ver proyecto</Button>
               <Button size="medium" variant="text" component="a" href="https://github.com/Santino112/Corporate-website" target="_blank" rel="noopener noreferrer" disableElevation
                 sx={{
-                  fontSize: { xs: "0.80rem", md: "1rem" },
+                  fontSize: { xs: "0.80rem", sm: "1rem", md: "1rem" },
                   mb: 1,
                   color: "#ffff",
                   "&:hover": {
@@ -172,14 +197,23 @@ export default function Proyectos() {
             <CardMedia
               component="img"
               alt="Wallet Auth0"
-              height="300"
+              sx={{
+                height: {
+                  xs: 280,
+                  sm: 280,
+                  md: 350,
+                  lg: 450,
+                  xl: 450
+                },
+                objectFit: "cover"
+              }}
               src={"/Images/walletAuth0.png"}
             />
             <CardContent sx={{ overflowY: 'auto', flex: 1, minHeight: 0 }}>
-              <Typography gutterBottom variant="h5" component="div" sx={{ fontSize: { xs: "1.5rem", sm: "1.1rem", md: "1.5rem" } }}>
+              <Typography gutterBottom variant="h5" component="div" sx={{ fontSize: { xs: "1.5rem", sm: "1.5rem", md: "1.7rem" } }}>
                 Wallet con Auth0
               </Typography>
-              <Typography variant="body2" sx={{ fontSize: { xs: "1.1rem", sm: "1.1rem", md: "1.2rem", }, wordBreak: "break-word" }}>
+              <Typography variant="body2" sx={{ fontSize: { xs: "1.1rem", sm: "1.2rem", md: "1.3rem", }, wordBreak: "break-word" }}>
                 Version mejorada del anterior proyecto de "Wallet raulo coins". En este proyecto utilizamos un servicio de terceros para ingresar a la billetera virtual. Además, se agregaron nuevas funcionalidades y mejoras.<br />
                 Desarrollado con React Vite y Material Design. <br />
                 Stack tecnológico: Auth0, React Vite, Material Design.
@@ -188,7 +222,7 @@ export default function Proyectos() {
             <CardActions>
               <Button size="medium" variant="Contained" component="a" href="https://wallet-auth0.vercel.app" target="_blank" rel="noopener noreferrer" disableElevation
                 sx={{
-                  fontSize: { xs: "0.80rem", md: "1rem" },
+                  fontSize: { xs: "0.80rem", sm: "1rem", md: "1rem" },
                   ml: 1,
                   mb: 1,
                   backgroundColor: "#37474f",
@@ -200,7 +234,7 @@ export default function Proyectos() {
                 }}>Ver proyecto</Button>
               <Button size="medium" variant="text" component="a" href="https://github.com/Santino112/Wallet-Auth0" target="_blank" rel="noopener noreferrer" disableElevation
                 sx={{
-                  fontSize: { xs: "0.80rem", md: "1rem" },
+                  fontSize: { xs: "0.80rem", sm: "1rem", md: "1rem" },
                   mb: 1,
                   color: "#ffff",
                   "&:hover": {
@@ -223,14 +257,23 @@ export default function Proyectos() {
             <CardMedia
               component="img"
               alt="Wallet"
-              height="300"
+              sx={{
+                height: {
+                  xs: 280,
+                  sm: 280,
+                  md: 350,
+                  lg: 450,
+                  xl: 450
+                },
+                objectFit: "cover"
+              }}
               src={"/Images/walletRaulo.png"}
             />
             <CardContent sx={{ overflowY: 'auto', flex: 1, minHeight: 0 }}>
-              <Typography gutterBottom variant="h5" component="div" sx={{ fontSize: { xs: "1.5rem", sm: "1.1rem", md: "1.5rem" } }}>
+              <Typography gutterBottom variant="h5" component="div" sx={{ fontSize: { xs: "1.5rem", sm: "1.5rem", md: "1.7rem" } }}>
                 Wallet raulo coins
               </Typography>
-              <Typography variant="body2" sx={{ fontSize: { xs: "1.1rem", sm: "1.1rem", md: "1.2rem", }, wordBreak: "break-word" }}>
+              <Typography variant="body2" sx={{ fontSize: { xs: "1.1rem", sm: "1.2rem", md: "1.3rem", }, wordBreak: "break-word" }}>
                 Proyecto donde se utiliza una serie de apis para generar una billetera virtual de transacciones entre mis diferentes compañeros universitarios. Esta fue realizada con React Vite, para la estructura y manejo de las api y Material Design para todo el diseño.<br />
                 Stack tecnológico: React Vite, Material Design.
               </Typography>
@@ -238,7 +281,7 @@ export default function Proyectos() {
             <CardActions>
               <Button size="medium" variant="Contained" component="a" href="https://wallet-raulo-coins.vercel.app" target="_blank" rel="noopener noreferrer" disableElevation
                 sx={{
-                  fontSize: { xs: "0.80rem", md: "1rem" },
+                  fontSize: { xs: "0.80rem", sm: "1rem", md: "1rem" },
                   ml: 1,
                   mb: 1,
                   backgroundColor: "#37474f",
@@ -250,7 +293,7 @@ export default function Proyectos() {
                 }}>Ver proyecto</Button>
               <Button size="medium" variant="text" component="a" href="https://github.com/Santino112/Wallet-RauloCoins" target="_blank" rel="noopener noreferrer" disableElevation
                 sx={{
-                  fontSize: { xs: "0.80rem", md: "1rem" },
+                  fontSize: { xs: "0.80rem", sm: "1rem", md: "1rem" },
                   mb: 1,
                   color: "#ffff",
                   "&:hover": {
@@ -273,14 +316,23 @@ export default function Proyectos() {
             <CardMedia
               component="img"
               alt="Preguntado"
-              height="300"
+              sx={{
+                height: {
+                  xs: 280,
+                  sm: 280,
+                  md: 350,
+                  lg: 450,
+                  xl: 450
+                },
+                objectFit: "cover"
+              }}
               src={"/Images/Preguntame.png"}
             />
             <CardContent sx={{ overflowY: 'auto', flex: 1, minHeight: 0 }}>
-              <Typography gutterBottom variant="h5" component="div" sx={{ fontSize: { xs: "1.5rem", sm: "1.1rem", md: "1.5rem" } }}>
+              <Typography gutterBottom variant="h5" component="div" sx={{ fontSize: { xs: "1.5rem", sm: "1.5rem", md: "1.7rem" } }}>
                 Preguntame
               </Typography>
-              <Typography variant="body2" sx={{ fontSize: { xs: "1.1rem", sm: "1.1rem", md: "1.2rem", }, wordBreak: "break-word" }}>
+              <Typography variant="body2" sx={{ fontSize: { xs: "1.1rem", sm: "1.2rem", md: "1.3rem", }, wordBreak: "break-word" }}>
                 Aplicación que responde 'Sí' o 'No' en base a una pregunta del usuario, usando una API que devuelve un gif y una respuesta textual, tipo oráculo digital moderno.<br />
                 Stack tecnológico: React Vite, Material Design.
               </Typography>
@@ -288,7 +340,7 @@ export default function Proyectos() {
             <CardActions>
               <Button size="medium" variant="Contained" component="a" href="https://preguntas-ashy.vercel.app" target="_blank" rel="noopener noreferrer" disableElevation
                 sx={{
-                  fontSize: { xs: "0.80rem", md: "1rem" },
+                  fontSize: { xs: "0.80rem", sm: "1rem", md: "1rem" },
                   ml: 1,
                   mb: 1,
                   backgroundColor: "#37474f",
@@ -300,7 +352,7 @@ export default function Proyectos() {
                 }}>Ver proyecto</Button>
               <Button size="medium" variant="text" component="a" href="https://github.com/Santino112/Preguntas" target="_blank" rel="noopener noreferrer" disableElevation
                 sx={{
-                  fontSize: { xs: "0.80rem", md: "1rem" },
+                  fontSize: { xs: "0.80rem", sm: "1rem", md: "1rem" },
                   mb: 1,
                   color: "#ffff",
                   "&:hover": {
@@ -323,14 +375,23 @@ export default function Proyectos() {
             <CardMedia
               component="img"
               alt="Survey Form"
-              height="300"
+              sx={{
+                height: {
+                  xs: 280,
+                  sm: 280,
+                  md: 350,
+                  lg: 450,
+                  xl: 450
+                },
+                objectFit: "cover"
+              }}
               src={"/Images/surveyForm.png"}
             />
             <CardContent sx={{ overflowY: 'auto', flex: 1, minHeight: 0 }}>
-              <Typography gutterBottom variant="h5" component="div" sx={{ fontSize: { xs: "1.5rem", sm: "1.1rem", md: "1.5rem" } }}>
+              <Typography gutterBottom variant="h5" component="div" sx={{ fontSize: { xs: "1.5rem", sm: "1.5rem", md: "1.7rem" } }}>
                 Survey form
               </Typography>
-              <Typography variant="body2" sx={{ fontSize: { xs: "1.1rem", sm: "1.1rem", md: "1.2rem", }, wordBreak: "break-word" }}>
+              <Typography variant="body2" sx={{ fontSize: { xs: "1.1rem", sm: "1.2rem", md: "1.3rem", }, wordBreak: "break-word" }}>
                 Un formulario en línea que se utiliza para recopilar respuestas o datos de los usuarios sobre un tema específico.<br />
                 Stack tecnológico: HTML5, CSS, JavaScript, Bootstrap.
               </Typography>
@@ -338,7 +399,7 @@ export default function Proyectos() {
             <CardActions>
               <Button size="medium" variant="Contained" component="a" href="https://survey-form-wheat-alpha.vercel.app" target="_blank" rel="noopener noreferrer" disableElevation
                 sx={{
-                  fontSize: { xs: "0.80rem", md: "1rem" },
+                  fontSize: { xs: "0.80rem", sm: "1rem", md: "1rem" },
                   ml: 1,
                   mb: 1,
                   backgroundColor: "#37474f",
@@ -350,7 +411,7 @@ export default function Proyectos() {
                 }}>Ver proyecto</Button>
               <Button size="medium" variant="text" component="a" href="https://github.com/Santino112/Survey-form" target="_blank" rel="noopener noreferrer" disableElevation
                 sx={{
-                  fontSize: { xs: "0.80rem", md: "1rem" },
+                  fontSize: { xs: "0.80rem", sm: "1rem", md: "1rem" },
                   mb: 1,
                   color: "#ffff",
                   "&:hover": {

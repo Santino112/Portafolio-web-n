@@ -10,7 +10,7 @@ export default function Contactos() {
   return (
     <Box component="section" sx={{
       width: "100%",
-      minHeight: "100vh",
+      minHeight: "100dvh",
       display: "flex",
       justifyContent: "center",
       alignItems: "center",

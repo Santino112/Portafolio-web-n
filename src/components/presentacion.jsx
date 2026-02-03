@@ -69,7 +69,7 @@ export default function Presentacion() {
           <Box sx={{
             width: {
               xs: "50%",
-              sm: "50%",
+              sm: "40%",
               md: "55%",
               lg: "55%",
               xl: "60%",
@@ -110,21 +110,24 @@ export default function Presentacion() {
               display: "flex",
               alignItems: "center",
               gap: "0.5rem",
-              mb: 1
+              mb: 1,
+              wordBreak: "break-word" 
             }}><EmailRoundedIcon fontSize="medium" />santinoscampone1@gmail.com</Typography>
             <Typography variant="body1" sx={{
               color: '#ffff',
               display: "flex",
               alignItems: "center",
               gap: "0.5rem",
-              mb: 1
+              mb: 1,
+              wordBreak: "break-word" 
             }}><StayCurrentPortraitRoundedIcon fontSize="medium" /> 3534244165</Typography>
             <Typography variant="body1" sx={{
               color: '#ffff',
               display: "flex",
               alignItems: "center",
               gap: "0.5rem",
-              mb: 1
+              mb: 1,
+              wordBreak: "break-word" 
             }}><FmdGoodRoundedIcon fontSize="medium" />Villa Maria, Córdoba</Typography>
             <Divider
               sx={{
@@ -140,8 +143,9 @@ export default function Presentacion() {
               gap: "0.5rem",
               cursor: "pointer",
               mb: 1,
+              wordBreak: "break-word",
               transition: "color 0.3s ease",
-              "&:hover" : {
+              "&:hover": {
                 color: "#0A66C2"
               }
             }}><LinkedInIcon fontSize="medium" />LinkedIn</Typography>
@@ -153,7 +157,8 @@ export default function Presentacion() {
               cursor: "pointer",
               mb: 1,
               transition: "color 0.3s ease",
-              "&:hover" : {
+              wordBreak: "break-word",
+              "&:hover": {
                 color: "#181717"
               }
             }}><GitHubIcon fontSize="medium" />GitHub</Typography>
@@ -169,7 +174,8 @@ export default function Presentacion() {
               display: "flex",
               alignItems: "center",
               gap: "0.5rem",
-              mb: 1
+              mb: 1,
+              wordBreak: "break-word",
             }}><EventAvailableRoundedIcon fontSize="medium" />Disponibilidad: Full time</Typography>
           </Box>
         </Stack>
@@ -205,7 +211,7 @@ export default function Presentacion() {
               sx={{
                 fontSize: {
                   xs: "1.6rem",
-                  sm: "1.6rem",
+                  sm: "2.5rem",
                   md: "2rem",
                   lg: "2.5rem",
                   xl: "2.7rem"
@@ -240,7 +246,7 @@ export default function Presentacion() {
                 sx={{
                   fontSize: {
                     xs: "1.1rem",
-                    sm: "1.1rem",
+                    sm: "1.5rem",
                     md: "1.7rem",
                     lg: "1.6rem",
                     xl: "1.6rem"
@@ -279,7 +285,7 @@ export default function Presentacion() {
                   sx={{
                     width: {
                       xs: "90%",
-                      sm: "90%",
+                      sm: "65%",
                       md: "64%",
                       lg: "63%",
                       xl: "63%"
@@ -300,7 +306,7 @@ export default function Presentacion() {
                   sx={{
                     width: {
                       xs: "90%",
-                      sm: "90%",
+                      sm: "65%",
                       md: "64%",
                       lg: "63%",
                       xl: "63%"
@@ -321,7 +327,7 @@ export default function Presentacion() {
                   sx={{
                     width: {
                       xs: "90%",
-                      sm: "90%",
+                      sm: "65%",
                       md: "64%",
                       lg: "63%",
                       xl: "63%"
@@ -342,7 +348,7 @@ export default function Presentacion() {
                   sx={{
                     width: {
                       xs: "90%",
-                      sm: "90%",
+                      sm: "65%",
                       md: "64%",
                       lg: "63%",
                       xl: "63%"
@@ -363,8 +369,8 @@ export default function Presentacion() {
                   sx={{
                     width: {
                       xs: "90%",
-                      sm: "90%",
-                      md: "64%",
+                      sm: "65%",
+                      md: "65%",
                       lg: "63%",
                       xl: "63%"
                     },
@@ -384,7 +390,7 @@ export default function Presentacion() {
                   sx={{
                     width: {
                       xs: "90%",
-                      sm: "90%",
+                      sm: "65%",
                       md: "64%",
                       lg: "63%",
                       xl: "63%"
@@ -397,11 +403,11 @@ export default function Presentacion() {
                 </Box>
               </Grid>
             </Grid>
-            <Stack spacing={3} direction="row" sx={{
+            <Stack spacing={3} direction="row" justifyContent={{ xs: "center", sm: "center", md: "center", lg: "flex-start" }} sx={{
               textAlign: {
                 xs: "center",
                 sm: "center",
-                md: "start",
+                md: "center",
                 lg: "start",
                 xl: "start"
               },
@@ -419,7 +425,7 @@ export default function Presentacion() {
                 component="a"
                 variant="contained"
                 sx={{
-                  fontSize: { xs: "0.80rem", sm: "0.80rem", md: "1rem", lg: "1rem", xl: "1rem" },
+                  fontSize: { xs: "0.80rem", sm: "1rem", md: "1rem", lg: "1rem", xl: "1rem" },
                   backgroundColor: "rgba(255, 255, 255, 0.04)",
                   boxShadow: 7,
                   "&:hover": {
