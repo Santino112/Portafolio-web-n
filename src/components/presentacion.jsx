@@ -17,6 +17,7 @@ export default function Presentacion() {
       sx={{
         display: "flex",
         width: "100%",
+        backgroundColor: "transparent",
         flexDirection: {
           xs: "column",
           sm: "column",

@@ -1,3 +1,4 @@
+import "./App.css"
 import Presentacion from "./components/presentacion.jsx";
 import Proyectos from "./components/proyectos.jsx";
 import Contactos from "./components/contactos.jsx";
@@ -7,15 +8,11 @@ function App() {
   return (
     <>
       <CssBaseline />
-      <>
-        <Presentacion />
-      </>
-      <>
-        <Proyectos />
-      </>
-      <>
-        <Contactos />
-      </>
+      <div className="background"></div>
+
+      <Presentacion />
+      <Proyectos />
+      <Contactos />
     </>
   );
 }

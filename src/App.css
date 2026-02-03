@@ -1,13 +1,22 @@
-body{
-  background-image: url('../public/Images/FondoPrueba.jpg');
-  background-size: cover;   
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  min-height: 100svh;
+body, html {
+  margin: 0;
   overflow-x: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  background-color: transparent !important;
 }
+
+.MuiContainer-root, .MuiBox-root {
+  background-color: transparent;
+}
+
+.background {
+  position: fixed;
+  inset: 0;
+  background-image: url('/Images/FondoPrueba.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  will-change: transform;
+  transform: translateZ(0);
+  z-index: -1;
+}
+

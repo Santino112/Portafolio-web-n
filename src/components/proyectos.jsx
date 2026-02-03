@@ -1,4 +1,3 @@
-import "../App.css";
 import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
 import { Box, Typography, Stack, Button, Card, CardActions, CardContent, CardMedia, Grid, Divider } from "@mui/material";
