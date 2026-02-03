@@ -16,6 +16,7 @@ export default function Presentacion() {
       component="section"
       sx={{
         display: "flex",
+        width: "100%",
         flexDirection: {
           xs: "column",
           sm: "column",

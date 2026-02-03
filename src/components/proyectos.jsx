@@ -9,7 +9,6 @@ export default function Proyectos() {
     <Box component="section"
       sx={{
         minHeight: "100dvh",
-        width: "100%",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
