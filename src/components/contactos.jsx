@@ -51,7 +51,7 @@ export default function Contactos() {
         }}>
           <Typography variant="h2" sx={{
             fontSize: {
-              xs: "1.4rem",
+              xs: "1.3rem",
               sm: "2rem",
               md: "2rem",
               lg: "2.5rem",
@@ -62,7 +62,7 @@ export default function Contactos() {
           }}>¿Tienes algún proyecto en mente?</Typography>
           <Typography variant="body" sx={{
             fontSize: {
-              xs: "1.3rem",
+              xs: "1.2rem",
               sm: "1.7rem",
               md: "1.7rem",
               lg: "2rem",
