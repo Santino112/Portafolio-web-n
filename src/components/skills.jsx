@@ -11,7 +11,6 @@ export default function Skills() {
             sx={{
                 display: "flex",
                 width: "100%",
-                backgroundColor: "transparent",
                 flexDirection: {
                     xs: "column",
                     sm: "column",
@@ -25,6 +24,7 @@ export default function Skills() {
                 padding: '2rem',
                 backgroundColor: "rgb(25, 25, 25)",
                 borderRadius: 7,
+                overflowX: "hidden",
             }}
         >
             <motion.div
@@ -52,7 +52,7 @@ export default function Skills() {
                     },
                 }}>
                     <MotionBox
-                        initial={{ opacity: 0, x: -90 }}
+                        initial={{ opacity: 0, x: { xs: -30, md: -90 } }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.8, ease: "easeOut" }}
                         viewport={{ once: true }}
@@ -412,7 +412,7 @@ export default function Skills() {
                                 }}
                             />
                             <List sx={{ color: "#fff", pl: 2 }}>
-                                <ListItem sx={{ display: "list-item" }}>
+                                <ListItem sx={{ display: "list-item", }}>
                                     <ListItemText primary="Trabajo en equipo y colaboración efectiva."></ListItemText>
                                 </ListItem>
                                 <ListItem sx={{ display: "list-item" }}>

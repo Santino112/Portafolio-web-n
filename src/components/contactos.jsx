@@ -54,8 +54,8 @@ export default function Contactos() {
               xs: "1.3rem",
               sm: "2rem",
               md: "2rem",
-              lg: "2.5rem",
-              xl: "2.5rem"
+              lg: "2.3rem",
+              xl: "2.3rem"
             },
             color: "#ffff",
             wordBreak: "break-word"
@@ -65,8 +65,8 @@ export default function Contactos() {
               xs: "1.2rem",
               sm: "1.7rem",
               md: "1.7rem",
-              lg: "2rem",
-              xl: "2rem"
+              lg: "1.9rem",
+              xl: "1.9rem"
             },
             color: "#ffff",
             wordBreak: "break-word",

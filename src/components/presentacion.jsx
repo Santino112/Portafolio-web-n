@@ -67,7 +67,7 @@ export default function Presentacion() {
                 sm: "100%",
                 md: "55%",
                 lg: "35%",
-                xl: "20%"
+                xl: "22%"
               },
               padding: "1.5rem",
               borderRadius: 3,
