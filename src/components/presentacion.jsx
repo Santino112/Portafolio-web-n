@@ -329,8 +329,10 @@ export default function Presentacion() {
                     wordBreak: "break-word"
                   }}
                 >
-                  Analista de Sistemas de Computación con enfoque en desarrollo web y experiencia digital. Tengo experiencia en la creación de sitios web y landing pages,
-                  el desarrollo de interfaces web y la integración de servicios externos mediante API.</Typography>
+                  Backend Developer Junior con foco en Node.js, Express, JavaScript y MySQL. Experiencia en
+                  construcción de APIs REST, manejo de datos, autenticación y diseño de modelos relacionales.
+                  Formación complementaria en DevOps con Linux, Git, Docker y CI/CD. Me destaco por mi
+                  compromiso, rápida adaptación y buena comunicación técnica.</Typography>
               </Stack>
               <Grid
                 container
