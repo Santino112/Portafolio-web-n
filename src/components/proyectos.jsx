@@ -91,6 +91,74 @@ export default function Proyectos() {
                 xl: '100%'
               }, margin: "0 auto", color: "#ffff", backgroundColor: "#212121", boxShadow: "0 5px 12px rgba(10, 10, 10, 0.8)", display: "flex", flexDirection: "column",
               transition: "transform 0.4s ease-out",
+              borderRadius: 3,
+              "&:hover": {
+                transform: "scale(1.02)",
+                boxShadow: "0 1px 15px rgba(255,255,255,0.8)",
+              }
+            }}>
+              <CardMedia
+                component="img"
+                alt="green iguana"
+                sx={{
+                  height: {
+                    xs: 280,
+                    sm: 280,
+                    md: 350,
+                    lg: 450,
+                    xl: 450
+                  },
+                  objectFit: "cover"
+                }}
+                src={"/Images/TeresAI.png"}
+              />
+              <CardContent sx={{ overflowY: 'auto', flex: 1, minHeight: 0 }}>
+                <Typography gutterBottom variant="h5" component="div" sx={{ fontSize: { xs: "1.5rem", sm: "1.5rem", md: "1.7rem" } }}>
+                  TeresAI
+                </Typography>
+                <Typography variant="body2" sx={{ fontSize: { xs: "1.1rem", sm: "1.2rem", md: "1.3rem" }, wordBreak: "break-word" }}>
+                  Aplicación web desarrollada como tesis como parte de la finalización de mi carrera universitaria. <br />
+                  Consiste en un sistema integrado con inteligencia artificial que busca resolver 2 problematicas actuales, la comunicación de un familiar con su adulto mayor y la relación del adulto mayor
+                  con la tecnología. 
+                  Stack tecnológico: Node.js, Express.js, React, MUI, Supabase, Google Services, Google APIs y OpenAI.
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="medium" variant="Contained" component="a" href="https://teresai-front-production.up.railway.app/" target="_blank" rel="noopener noreferrer" disableElevation
+                  sx={{
+                    fontSize: { xs: "0.80rem", sm: "1rem", md: "1rem" },
+                    ml: 1,
+                    mb: 1,
+                    backgroundColor: "#37474f",
+                    color: "#ffff",
+                    "&:hover": {
+                      color: "#ffff",
+                      backgroundColor: "#263238"
+                    }
+                  }}>Ver proyecto</Button>
+                <Button size="medium" variant="text" component="a" href="https://github.com/Santino112/TeresAI-front" target="_blank" rel="noopener noreferrer" disableElevation
+                  sx={{
+                    fontSize: { xs: "0.80rem", sm: "1rem", md: "1rem" },
+                    mb: 1,
+                    color: "#ffff",
+                    "&:hover": {
+                      color: "#ffff",
+                    }
+                  }}><GitHubIcon fontSize="small" sx={{ marginRight: "0.5rem" }} />Ver código</Button>
+              </CardActions>
+            </Card>
+          </Grid>
+          <Grid item xs={12} sm={6} md={4}>
+            <Card sx={{
+              maxWidth: 1000, height: {
+                xs: 550,
+                sm: 550,
+                md: '100%',
+                lg: '100%',
+                xl: '100%'
+              }, margin: "0 auto", color: "#ffff", backgroundColor: "#212121", boxShadow: "0 5px 12px rgba(10, 10, 10, 0.8)", display: "flex", flexDirection: "column",
+              transition: "transform 0.4s ease-out",
+              borderRadius: 3,
               "&:hover": {
                 transform: "scale(1.02)",
                 boxShadow: "0 1px 15px rgba(255,255,255,0.8)",
@@ -141,7 +209,7 @@ export default function Proyectos() {
                     "&:hover": {
                       color: "#ffff",
                     }
-                  }}><GitHubIcon fontSize="small" sx={{ marginRight: "0.5rem" }} /> Ver codigo</Button>
+                  }}><GitHubIcon fontSize="small" sx={{ marginRight: "0.5rem" }} />Ver código</Button>
               </CardActions>
             </Card>
           </Grid>
@@ -155,6 +223,7 @@ export default function Proyectos() {
                 xl: '100%'
               }, margin: "0 auto", color: "#ffff", backgroundColor: "#212121", boxShadow: "0 5px 12px rgba(10, 10, 10, 0.8)", display: "flex", flexDirection: "column",
               transition: "transform 0.4s ease-out",
+              borderRadius: 3,
               "&:hover": {
                 transform: "scale(1.02)",
                 boxShadow: "0 1px 15px rgba(255,255,255,0.8)",
@@ -206,7 +275,7 @@ export default function Proyectos() {
                     "&:hover": {
                       color: "#ffff",
                     }
-                  }}><GitHubIcon fontSize="small" sx={{ marginRight: "0.5rem" }} /> Ver codigo</Button>
+                  }}><GitHubIcon fontSize="small" sx={{ marginRight: "0.5rem" }} />Ver código</Button>
               </CardActions>
             </Card>
           </Grid>
@@ -220,6 +289,7 @@ export default function Proyectos() {
                 xl: '100%'
               }, margin: "0 auto", color: "#ffff", backgroundColor: "#212121", boxShadow: "0 5px 12px rgba(10, 10, 10, 0.8)", display: "flex", flexDirection: "column",
               transition: "transform 0.4s ease-out",
+              borderRadius: 3,
               "&:hover": {
                 transform: "scale(1.02)",
                 boxShadow: "0 1px 15px rgba(255,255,255,0.8)",
@@ -271,7 +341,7 @@ export default function Proyectos() {
                     "&:hover": {
                       color: "#ffff",
                     }
-                  }}><GitHubIcon fontSize="small" sx={{ marginRight: "0.5rem" }} /> Ver codigo</Button>
+                  }}><GitHubIcon fontSize="small" sx={{ marginRight: "0.5rem" }} />Ver código</Button>
               </CardActions>
             </Card>
           </Grid>
@@ -285,6 +355,7 @@ export default function Proyectos() {
                 xl: '100%'
               }, margin: "0 auto", color: "#ffff", backgroundColor: "#212121", boxShadow: "0 5px 12px rgba(10, 10, 10, 0.8)", display: "flex", flexDirection: "column",
               transition: "transform 0.4s ease-out",
+              borderRadius: 3,
               "&:hover": {
                 transform: "scale(1.02)",
                 boxShadow: "0 1px 15px rgba(255,255,255,0.8)",
@@ -335,7 +406,7 @@ export default function Proyectos() {
                     "&:hover": {
                       color: "#ffff",
                     }
-                  }}><GitHubIcon fontSize="small" sx={{ marginRight: "0.5rem" }} /> Ver codigo</Button>
+                  }}><GitHubIcon fontSize="small" sx={{ marginRight: "0.5rem" }} />Ver código</Button>
               </CardActions>
             </Card>
           </Grid>
@@ -349,70 +420,7 @@ export default function Proyectos() {
                 xl: '100%'
               }, margin: "0 auto", color: "#ffff", backgroundColor: "#212121", boxShadow: "0 5px 12px rgba(10, 10, 10, 0.8)", display: "flex", flexDirection: "column",
               transition: "transform 0.4s ease-out",
-              "&:hover": {
-                transform: "scale(1.02)",
-                boxShadow: "0 1px 15px rgba(255,255,255,0.8)",
-              }
-            }}>
-              <CardMedia
-                component="img"
-                alt="Preguntado"
-                sx={{
-                  height: {
-                    xs: 280,
-                    sm: 280,
-                    md: 350,
-                    lg: 450,
-                    xl: 450
-                  },
-                  objectFit: "cover"
-                }}
-                src={"/Images/Preguntame.png"}
-              />
-              <CardContent sx={{ overflowY: 'auto', flex: 1, minHeight: 0 }}>
-                <Typography gutterBottom variant="h5" component="div" sx={{ fontSize: { xs: "1.5rem", sm: "1.5rem", md: "1.7rem" } }}>
-                  Preguntame
-                </Typography>
-                <Typography variant="body2" sx={{ fontSize: { xs: "1.1rem", sm: "1.2rem", md: "1.3rem", }, wordBreak: "break-word" }}>
-                  Aplicación que responde 'Sí' o 'No' en base a una pregunta del usuario, usando una API que devuelve un gif y una respuesta textual, tipo oráculo digital moderno.<br />
-                  Stack tecnológico: React Vite, Material Design.
-                </Typography>
-              </CardContent>
-              <CardActions>
-                <Button size="medium" variant="Contained" component="a" href="https://preguntas-ashy.vercel.app" target="_blank" rel="noopener noreferrer" disableElevation
-                  sx={{
-                    fontSize: { xs: "0.80rem", sm: "1rem", md: "1rem" },
-                    ml: 1,
-                    mb: 1,
-                    backgroundColor: "#37474f",
-                    color: "#ffff",
-                    "&:hover": {
-                      color: "#ffff",
-                      backgroundColor: "#263238"
-                    }
-                  }}>Ver proyecto</Button>
-                <Button size="medium" variant="text" component="a" href="https://github.com/Santino112/Preguntas" target="_blank" rel="noopener noreferrer" disableElevation
-                  sx={{
-                    fontSize: { xs: "0.80rem", sm: "1rem", md: "1rem" },
-                    mb: 1,
-                    color: "#ffff",
-                    "&:hover": {
-                      color: "#ffff",
-                    }
-                  }}><GitHubIcon fontSize="small" sx={{ marginRight: "0.5rem" }} /> Ver codigo</Button>
-              </CardActions>
-            </Card>
-          </Grid>
-          <Grid item xs={12} sm={6} md={4}>
-            <Card sx={{
-              maxWidth: 1000, height: {
-                xs: 550,
-                sm: 550,
-                md: '100%',
-                lg: '100%',
-                xl: '100%'
-              }, margin: "0 auto", color: "#ffff", backgroundColor: "#212121", boxShadow: "0 5px 12px rgba(10, 10, 10, 0.8)", display: "flex", flexDirection: "column",
-              transition: "transform 0.4s ease-out",
+              borderRadius: 3,
               "&:hover": {
                 transform: "scale(1.02)",
                 boxShadow: "0 1px 15px rgba(255,255,255,0.8)",
@@ -463,7 +471,7 @@ export default function Proyectos() {
                     "&:hover": {
                       color: "#ffff",
                     }
-                  }}><GitHubIcon fontSize="small" sx={{ marginRight: "0.5rem" }} /> Ver codigo</Button>
+                  }}><GitHubIcon fontSize="small" sx={{ marginRight: "0.5rem" }} />Ver código</Button>
               </CardActions>
             </Card>
           </Grid>
