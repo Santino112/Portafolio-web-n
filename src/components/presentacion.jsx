@@ -329,10 +329,10 @@ export default function Presentacion() {
                     wordBreak: "break-word"
                   }}
                 >
-                  Analista de Sistemas de Computación con enfoque en arquitectura Backend. Especializado en el desarrollo de APIs REST 
-                  utilizando Node.js, Express.js y TypeScript,  con conocimiento en el diseño y 
-                  gestión de bases de datos relacionales (SQL). Cuento con formación en herramientas de DevOps como Docker y 
-                  CI/CD para la optimización de despliegues. Me destaco por mi capacidad analítica, 
+                  Analista de Sistemas de Computación con enfoque en arquitectura Backend. Especializado en el desarrollo de APIs REST
+                  utilizando Node.js, Express.js y TypeScript,  con conocimiento en el diseño y
+                  gestión de bases de datos relacionales (SQL). Cuento con formación en herramientas de DevOps como Docker y
+                  CI/CD para la optimización de despliegues. Me destaco por mi capacidad analítica,
                   rapidez de aprendizaje y una comunicación técnica efectiva para el trabajo en equipos de desarrollo.</Typography>
               </Stack>
               <Grid
@@ -352,25 +352,6 @@ export default function Presentacion() {
                     md: 800
                   },
                 }}>
-                <Grid size="auto">
-                  <Box
-                    component="svg"
-                    role="img"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    sx={{
-                      width: 60,
-                      fill: "#F7DF1E",
-                      transition: "transform 0.4s ease-out",
-                      "&:hover": {
-                        transform: "scale(1.20)"
-                      }
-                    }}
-                  >
-                    <title>JavaScript</title>
-                    <path d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z" />
-                  </Box>
-                </Grid>
                 <Grid size="auto">
                   <Box
                     component="svg"
@@ -407,6 +388,25 @@ export default function Presentacion() {
                   >
                     <title>Express</title>
                     <path d="M24 18.588a1.529 1.529 0 01-1.895-.72l-3.45-4.771-.5-.667-4.003 5.444a1.466 1.466 0 01-1.802.708l5.158-6.92-4.798-6.251a1.595 1.595 0 011.9.666l3.576 4.83 3.596-4.81a1.435 1.435 0 011.788-.668L21.708 7.9l-2.522 3.283a.666.666 0 000 .994l4.804 6.412zM.002 11.576l.42-2.075c1.154-4.103 5.858-5.81 9.094-3.27 1.895 1.489 2.368 3.597 2.275 5.973H1.116C.943 16.447 4.005 19.009 7.92 17.7a4.078 4.078 0 002.582-2.876c.207-.666.548-.78 1.174-.588a5.417 5.417 0 01-2.589 3.957 6.272 6.272 0 01-7.306-.933 6.575 6.575 0 01-1.64-3.858c0-.235-.08-.455-.134-.666A88.33 88.33 0 010 11.577zm1.127-.286h9.654c-.06-3.076-2.001-5.258-4.59-5.278-2.882-.04-4.944 2.094-5.071 5.264z" />
+                  </Box>
+                </Grid>
+                <Grid size="auto">
+                  <Box
+                    component="svg"
+                    role="img"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    sx={{
+                      width: 60,
+                      fill: "#3178C6",
+                      transition: "transform 0.4s ease-out",
+                      "&:hover": {
+                        transform: "scale(1.20)"
+                      }
+                    }}
+                  >
+                    <title>Typescript</title>
+                    <path d="M1.125 0C.502 0 0 .502 0 1.125v21.75C0 23.498.502 24 1.125 24h21.75c.623 0 1.125-.502 1.125-1.125V1.125C24 .502 23.498 0 22.875 0zm17.363 9.75c.612 0 1.154.037 1.627.111a6.38 6.38 0 0 1 1.306.34v2.458a3.95 3.95 0 0 0-.643-.361 5.093 5.093 0 0 0-.717-.26 5.453 5.453 0 0 0-1.426-.2c-.3 0-.573.028-.819.086a2.1 2.1 0 0 0-.623.242c-.17.104-.3.229-.393.374a.888.888 0 0 0-.14.49c0 .196.053.373.156.529.104.156.252.304.443.444s.423.276.696.41c.273.135.582.274.926.416.47.197.892.407 1.266.628.374.222.695.473.963.753.268.279.472.598.614.957.142.359.214.776.214 1.253 0 .657-.125 1.21-.373 1.656a3.033 3.033 0 0 1-1.012 1.085 4.38 4.38 0 0 1-1.487.596c-.566.12-1.163.18-1.79.18a9.916 9.916 0 0 1-1.84-.164 5.544 5.544 0 0 1-1.512-.493v-2.63a5.033 5.033 0 0 0 3.237 1.2c.333 0 .624-.03.872-.09.249-.06.456-.144.623-.25.166-.108.29-.234.373-.38a1.023 1.023 0 0 0-.074-1.089 2.12 2.12 0 0 0-.537-.5 5.597 5.597 0 0 0-.807-.444 27.72 27.72 0 0 0-1.007-.436c-.918-.383-1.602-.852-2.053-1.405-.45-.553-.676-1.222-.676-2.005 0-.614.123-1.141.369-1.582.246-.441.58-.804 1.004-1.089a4.494 4.494 0 0 1 1.47-.629 7.536 7.536 0 0 1 1.77-.201zm-15.113.188h9.563v2.166H9.506v9.646H6.789v-9.646H3.375z"/>
                   </Box>
                 </Grid>
                 <Grid size="auto">
