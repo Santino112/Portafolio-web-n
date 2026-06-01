@@ -329,10 +329,11 @@ export default function Presentacion() {
                     wordBreak: "break-word"
                   }}
                 >
-                  Backend Developer Junior con foco en Node.js, Express, JavaScript y MySQL. Experiencia en
-                  construcción de APIs REST, manejo de datos, autenticación y diseño de modelos relacionales.
-                  Formación complementaria en DevOps con Linux, Git, Docker y CI/CD. Me destaco por mi
-                  compromiso, rápida adaptación y buena comunicación técnica.</Typography>
+                  Analista de Sistemas de Computación con enfoque en arquitectura Backend. Especializado en el desarrollo de APIs REST 
+                  utilizando Node.js, Express.js y TypeScript,  con conocimiento en el diseño y 
+                  gestión de bases de datos relacionales (SQL). Cuento con formación en herramientas de DevOps como Docker y 
+                  CI/CD para la optimización de despliegues. Me destaco por mi capacidad analítica, 
+                  rapidez de aprendizaje y una comunicación técnica efectiva para el trabajo en equipos de desarrollo.</Typography>
               </Stack>
               <Grid
                 container
