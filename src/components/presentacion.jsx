@@ -329,11 +329,11 @@ export default function Presentacion() {
                     wordBreak: "break-word"
                   }}
                 >
-                  Analista de Sistemas de Computación con enfoque en arquitectura Backend. Especializado en el desarrollo de APIs REST
-                  utilizando Node.js, Express.js y TypeScript,  con conocimiento en el diseño y
-                  gestión de bases de datos relacionales (SQL). Cuento con formación en herramientas de DevOps como Docker y
-                  CI/CD para la optimización de despliegues. Me destaco por mi capacidad analítica,
-                  rapidez de aprendizaje y una comunicación técnica efectiva para el trabajo en equipos de desarrollo.</Typography>
+                 Analista de Sistemas de Computación especializado en desarrollo de software de punta a punta, 
+                 con sólida experiencia construyendo interfaces modernas y dinámicas en el Frontend utilizando React.js. 
+                 Mi enfoque técnico combina el diseño basado en componentes y patrones de arquitectura con un fuerte dominio en 
+                 la lógica Backend (Node.js, Express.js, TypeScript, APIs REST) y optimización de bases de datos relacionales. 
+                 Me destaco por mi comunicación técnica, adaptabilidad y enfoque en la resolución de problemas complejos.</Typography>
               </Stack>
               <Grid
                 container
