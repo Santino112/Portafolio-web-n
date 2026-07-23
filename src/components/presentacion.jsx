@@ -329,11 +329,8 @@ export default function Presentacion() {
                     wordBreak: "break-word"
                   }}
                 >
-                 Analista de Sistemas de Computación especializado en desarrollo de software de punta a punta, 
-                 con sólida experiencia construyendo interfaces modernas y dinámicas en el Frontend utilizando React.js. 
-                 Mi enfoque técnico combina el diseño basado en componentes y patrones de arquitectura con un fuerte dominio en 
-                 la lógica Backend (Node.js, Express.js, TypeScript, APIs REST) y optimización de bases de datos relacionales. 
-                 Me destaco por mi comunicación técnica, adaptabilidad y enfoque en la resolución de problemas complejos.</Typography>
+                 Analista de Sistemas de Computación especializado en desarrollo Full Stack. Construyo interfaces modernas con React.js y TypeScript, y diseño arquitecturas backend robustas con Node.js, Express.js y APIs REST. Experiencia en proyectos reales con integración de IA (OpenAI), bases de datos relacionales (PostgreSQL, MySQL, Supabase) y despliegue con Docker. Trabajo bien en equipo, me adapto rápido a nuevas tecnologías y 
+                 priorizo la calidad del código y la resolución concreta de problemas.</Typography>
               </Stack>
               <Grid
                 container
